@@ -1,0 +1,212 @@
+[
+  {
+    "id": 0,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/0000.png",
+    "knowledgeLevel": 0,
+    "section": "0",
+    "sectionHeading": "About This Guide",
+    "syllabusText": "'Certified Tester Foundation Level Syllabus' quote will display here © ISTQB. Incorporated society",
+    "fostSynopsis": "'Foundations of Software Testing' quote will display here © Cengage Learning EMEA",
+    "aostSynopsis": "'The Art of Software Testing' quote will display here © Word Association, Inc."
+  },
+  {
+    "id": 1,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0001-white.png",
+    "knowledgeLevel": 2,
+    "section": "1",
+    "sectionHeading": "Fundamentals of Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 2,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0002-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.1",
+    "sectionHeading": "Why is Testing Necessary",
+    "syllabusText": "Terms: bug, defect, error, failure, fault, mistake, quality, risk",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 3,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0003-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.1.1",
+    "sectionHeading": "Software Systems Context",
+    "syllabusText": "Software systems are an integral part of life, from business applications (e.g., banking) to consumer products (e.g., cars). Most people have had an experience with software that did not work as expected. Software that does not work correctly can lead to many problems, including loss of money, time or business reputation, and could even cause injury or death.",
+    "fostSynopsis": "Almost every living person has been touched by information technology, and most of us have dealt with the frustration and wasted time that occurs when software fails and exhibits unexpected behaviours. Some unfortunate individuals and companies have experienced financial loss or damage to their personal or business reputations as a result of defective software. (p.2)",
+    "aostSynopsis": "Therefore, the software we write today potentially touches millions of people, either enabling them to do their jobs effectively and efficiently, or causing them untold frustration and costing them in the form of lost work or lost business. (p1)"
+  },
+  {
+    "id": 4,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0004-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.1.2",
+    "sectionHeading": "Causes of Software Defects",
+    "syllabusText": "Defects occur because human beings are fallible and because there is time pressure, complex code, complexity of infrastructure, changing technologies, and/or many system interactions. Failures can be caused by environmental conditions as well. For example, radiation, magnetism, electronic fields, and pollution can cause faults in firmware or influence the execution of software by changing the hardware conditions.",
+    "fostSynopsis": "So, human beings are fallible and thus, when they work, they sometimes introduce defects. ...  In some cases, environmental conditions can lead to unexpected results\nthat do not relate to a software defect. (p.2-3)",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 5,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0005-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.1.3",
+    "sectionHeading": "Role of Testing in Software Development, Maintenance and Operations ",
+    "syllabusText": "Rigorous testing of systems and documentation can help to reduce the risk of problems occurring during operation and contribute to the quality of the software system, if the defects found are corrected before the system is released for operational use.Software testing may also be required to meet contractual or legal requirements, or industry-specific standards.",
+    "fostSynopsis": "While nothing can reduce the level of risk to zero, we certainly can – and should – try to reduce risk to an acceptable level prior to releasing the software to customers and users. (p4)",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 6,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0006-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.1.4",
+    "sectionHeading": "Testing and Quality ",
+    "syllabusText": "Testing can give confidence in the quality of the software if it finds few or no defects. A properly designed test that passes reduces the overall level of risk in a system. When testing does find defects, the quality of the software system increases when those defects are fixed. Lessons should be learned from previous projects. By understanding the root causes of defects found in other projects, processes can be improved, which in turn should prevent those defects from reoccurring and, as a consequence, improve the quality of future systems. This is an aspect of quality assurance.",
+    "fostSynopsis": "When a properly designed test is run, an unknown situation is changed into a known situation, which reduces the level of risk to the quality of the product. ... Testing also provides a learning opportunity that allows for improved quality if lessons are learned from each project. If root cause analysis is carried out for the defects found on each project, the team can improve its software development processes to avoid the introduction of similar defects in future systems. (p5)",
+    "aostSynopsis": "Testing is the process of executing a program with the intent of finding errors. (p.6)"
+  },
+  {
+    "id": 7,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0007-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.1.5",
+    "sectionHeading": "How Much Testing is Enough?",
+    "syllabusText": "Deciding how much testing is enough should take account of the level of risk, including technical, safety, and business risks, and project constraints such as time and budget. Testing should provide sufficient information to stakeholders to make informed decisions about the release of the software or system being tested, for the next development step or handover to customers.",
+    "fostSynopsis": "We could say that sufficient coverage is achieved when we balance what we should cover against project constraints such as time and budget. We should also ensure that testing provides sufficient information to the project and product stakeholders, so that they can decide whether to proceed with the project or with release. (p.5-6)",
+    "aostSynopsis": "The best way to establish some confidence in this claim is to try to refute it, that is, to try to find imperfections rather than just confirm that the program works correctly for some set of input data. (p.8)"
+  },
+  {
+    "id": 8,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0008-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.2",
+    "sectionHeading": "What is Testing?",
+    "syllabusText": "Test activities exist before and after test execution. These activities include planning and control, choosing test conditions, designing and executing test cases, checking results, evaluating exit criteria, reporting on the testing process and system under test, and finalizing or completing closure activities after a test phase has been completed. Testing also includes reviewing documents (including source code) and conducting static analysis.",
+	"fostSynopsis": "The process consisting of all lifecycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects. (p. 8)",
+    "aostSynopsis": "Testing is the process of executing a program with the intent of finding errors. (p. 6)"
+  },
+  {
+    "id": 9,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0009-white.png",
+    "knowledgeLevel": 2,
+    "section": "1.3",
+    "sectionHeading": "Seven Testing Principles",
+    "syllabusText": "1 – Testing shows presence of defects. 2 – Exhaustive testing is impossible. 3 – Early testing. 4 – Defect clustering. 5 – Pesticide paradox. 6 – Testing is context dependent. 7 – Absence-of-errors fallacy.",
+	"fostSynopsis": "These principles, while not always understood or noticed, are in action on most if not all projects. Knowing how to spot these principles, and how to take advantage of them, will make you a better tester. (p. 9)",
+    "aostSynopsis": "1 - A necessary part of a test case is a definition of the expected output or result. 2 - A programmer should avoid attempting to test his or her own program. 3 - A programming organization should not test its own programs. 4 - Any testing process should include a thorough inspection of the results of each test. 5 - Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected. 6 - Examining a program to see if it does not do what it is supposed to do is only half the battle; the other half is seeing whether the program does what it is not supposed to do. 7 - Avoid throwaway test cases unless the program is truly a throwaway program. 8 - Do not plan a testing effort under the tacit assumption that no errors will be found. 9 - The probability of the existence of more errors in a section of a program is proportional to the number of errors already found in that section. 10 - Testing is an extremely creative and intellectually challenging task. (p. 13)"
+  },
+  {
+    "id": 10,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0010-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.4",
+    "sectionHeading": "Fundamental Test Process",
+    "syllabusText": "Terms: Confirmation testing, re-testing, exit criteria, incident, regression testing, test basis, test condition, test coverage, test data, test execution, test log, test plan, test procedure, test policy, test suite, test summary report, testware",
+	"fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 11,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0011-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.4.1",
+    "sectionHeading": "Test Planning and Control",
+    "syllabusText": "Test planning is the activity of defining the objectives of testing and the specification of test activities in order to meet the objectives and mission. Test control is the ongoing activity of comparing actual progress against the plan, and reporting the status, including deviations from the plan. It involves taking actions necessary to meet the mission and objectives of the project. In order to control testing, the testing activities should be monitored throughout the project. Test planning takes into account the feedback from monitoring and control activities.",
+	"fostSynopsis": "...planning involves defining the overall strategic and tactical objectives of testing, as well as discovering and specifying the specific test activities required to satisfy those objectives and the general mission of testing. ... in test control we continuously compare actual progress against the plan, adjust the plan, report the test status and any necessary deviations from the plan, monitor test activities, and take whatever actions are necessary to meet the mission and objectives of the project. (p.15)",
+    "aostSynopsis": "... the major mistake most often made in planning a testing process is the tacit assumption that no errors will be found. The obvious result of this mistake is that the planned resources (people, calendar time, and computer time) will be grossly underestimated, a notorious problem in the computing industry. Compounding the problem is the fact that the testing process falls at the end of the development cycle, meaning that resource changes are difficult. A second, perhaps more insidious problem is that the wrong definition of testing is being used, since it is difficult to see how someone using the correct definition of testing (the goal being to find errors) would plan a test using the assumption that no errors will be found. (p. 133)"
+  },
+  {
+    "id": 12,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0012-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.4.2",
+    "sectionHeading": "Test Analysis and Design",
+    "syllabusText": "Test analysis and design is the activity during which general testing objectives are transformed into tangible test conditions and test cases.",
+	"fostSynopsis": "In test analysis and design, we transform the more general testing objectives defined in the test plan into tangible test conditions and test cases. The way in which and degree to which the test conditions and test cases are made tangible – that is to say, specifically documented – depends on the needs of the testers, the expectations of the project team, any applicable regulations, and other considerations. (p. 15)",
+    "aostSynopsis": "What subset of all possible test cases has the highest probability of detecting the most errors? (p.41)"
+  },
+  {
+    "id": 13,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0013-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.4.3",
+    "sectionHeading": "Test Implementation and Execution",
+    "syllabusText": "Test implementation and execution is the activity where test procedures or scripts are specified by combining the test cases in a particular order and including any other information needed for test execution, the environment is set up and the tests are run.",
+	"fostSynopsis": "In test implementation and execution, we specify test procedures (or test scripts). This involves combining the test cases in a particular order, as well as including any other information needed for test execution. This involves transforming the high level (or abstract or logical) test cases into low level (concrete) test cases, which may be done more formally and written into a test script, or it may be done 'on the fly' as a tester is executing tests from a list of high level test conditions. Test implementation also involves setting up the test environment. During test execution, of course, we run the tests. (p.16)",
+    "aostSynopsis": "Once you have agreed that aggressive software testing is a worthy addition to your development efforts, the next step is to design test cases that will exercise your application sufficiently to produce satisfactory test results. In most cases, consider a combination of black-box and white-box methodologies to ensure that you have designed rigorous program testing. (p. 83)"
+  },
+  {
+    "id": 14,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0014-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.4.4",
+    "sectionHeading": "Evaluating Exit Criteria and Reporting",
+    "syllabusText": "Evaluating exit criteria is the activity where test execution is assessed against the defined objectives.",
+	"fostSynopsis": "The set of generic and specific conditions, agreed upon with the stakeholders, for permitting a process to be officially completed. The purpose of exit criteria is to prevent a task from being considered completed when there are still outstanding parts of the task which have not been finished. Exit criteria are used to report against and to plan when to stop testing. (p. 17)",
+    "aostSynopsis": "One of the most difficult questions to answer when testing a program is determining when to stop, since there is no way of knowing if the error just detected is the last remaining error. In fact, in anything but a small program, it is unreasonable to expect that all errors will eventually be detected. Given this dilemma, and given the fact that economics dictate that testing must eventually terminate. (p. 135)"
+  },
+  {
+    "id": 15,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0015-white.png",
+    "knowledgeLevel": 1,
+    "section": "1.4.5",
+    "sectionHeading": "Test Closure Activities",
+    "syllabusText": "Test closure activities collect data from completed test activities to consolidate experience, testware, facts and numbers. Test closure activities occur at project milestones such as when a software system is released, a test project is completed (or cancelled), a milestone has been achieved, or a maintenance release has been completed.",
+	"fostSynopsis": "In test closure, we collect data from completed test activities to consolidate experience, testware, facts and numbers. Test closure activities should occur at major project milestones. These can include when a software system is released, a test project is completed (or cancelled), a milestone has been achieved, or a maintenance release has been completed, though the specific milestones that involve closure activities should be specified in the test plan. (p. 18)",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 16,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0016-white.png",
+    "knowledgeLevel": 2,
+    "section": "The Psychology of Testing",
+    "sectionHeading": "1.5",
+    "syllabusText": "The mindset to be used while testing and reviewing is different from that used while developing software. With the right mindset developers are able to test their own code, but separation of this responsibility to a tester is typically done to help focus effort and provide additional benefits, such as an independent view by trained and professional testing resources. Independent testing may be carried out at any level of testing.",
+	"fostSynopsis": "... clear objectives for testing, the proper roles and balance of self-testing and independent testing, clear, courteous communication and feedback on defects. ... The softer side of software testing is often the harder side to master. A tester may have adequate or even excellent technique skills and certifications, but if they do not have adequate interpersonal and communication skills, they will not be an effective tester. Such soft skills can be improved with training and practice. (p. 18-23)",
+    "aostSynopsis": "Software testing is a technical task, yes, but it also involves some important considerations of economics and human psychology (p. 5)"
+  },
+  {
+    "id": 17,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0017-white.png",
+    "knowledgeLevel": 2,
+    "section": "Code of Ethics",
+    "sectionHeading": "1.6",
+    "syllabusText": "Involvement in software testing enables individuals to learn confidential and privileged information. A code of ethics is necessary, among other reasons to ensure that the information is not put to inappropriate use.",
+	"fostSynopsis": "As a software tester, as in any other profession, you will from time to time encounter ethical challenges. On the one hand, you are likely to have access to confidential and privileged information, or to be in the position to harm someone’s interests. On the other hand, you are likely to have opportunities to advance good causes. So, a code of ethics will help guide your decisions and choose the best possible outcome. (p. 23)",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 18,
+    "imgUrl": "",
+    "knowledgeLevel": 2,
+    "section": "2",
+    "sectionHeading": "Testing Throughout the Software Life Cycle",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 19,
+    "imgUrl": "",
+    "knowledgeLevel": 2,
+    "section": "2.1",
+    "sectionHeading": "Software Development Models",
+    "syllabusText": "Testing does not exist in isolation; test activities are related to software development activities. Different development life cycle models need different approaches to testing.",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 20,
+    "imgUrl": "",
+    "knowledgeLevel": 2,
+    "section": "2.1.1",
+    "sectionHeading": "V-model (Sequential Development Model)",
+    "syllabusText": "Although variants of the V-model exist, a common type of V-model uses four test levels, corresponding to the four development levels. 1 - Component (unit) testing. 2 - Integration testing. 3 - System testing. 4 - Acceptance testing.",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  }
+]
