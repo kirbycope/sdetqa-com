@@ -33,13 +33,18 @@
     <Compile Include="app.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
     <Compile Include="public\jquery\jquery-3.3.1.min.js" />
+    <Compile Include="routes\framework.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\istqb.js" />
     <Compile Include="routes\microcenter.js">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="routes\qa.js" />
+    <Compile Include="routes\sdet.js" />
     <Content Include="config.json" />
+    <Content Include="data\framework.json">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="data\istqb-foundation-level.json" />
     <Content Include="package.json" />
     <Content Include="public\bootstrap\css\theme\default\bootstrap.min.css" />
@@ -50,11 +55,13 @@
     <Content Include="views\error.ejs">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\framework.ejs" />
     <Content Include="views\index.ejs">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\istqb-foundation-level.ejs" />
     <Content Include="views\qa.ejs" />
+    <Content Include="views\sdet.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />

@@ -1,0 +1,56 @@
+﻿[
+  {
+    "id": 0,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/000.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Visual Studio test tools help you deliver high quality software. Use these tools to plan, execute, and monitor your entire testing effort. Stay on top of your test plan with quality metrics, indicators, and comprehensive test status reporting."
+  },
+  {
+    "id": 1,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/001.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Navigate to https://visualstudio.com/downloads/ and then select 'Free download 📥'"
+  },
+  {
+    "id": 2,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/002.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Select 'Run'"
+  },
+  {
+    "id": 3,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/003.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "(If Prompted) Select 'Yes'"
+  },
+  {
+    "id": 4,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/004.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Select 'Continue'"
+  },
+  {
+    "id": 5,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/005.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Select '.NET desktop development' and then select 'Install'"
+  },
+  {
+    "id": 6,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/006.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Select 'Launch' (if Visual Studio doesn't launch itself after a few minutes)"
+  },
+  {
+    "id": 7,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/007.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Select 'Not now, maybe later.'"
+  },
+  {
+    "id": 8,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/008.png",
+	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "text": "Select 'Dark' and then select 'Start Visual Studio'"
+  }
+]
