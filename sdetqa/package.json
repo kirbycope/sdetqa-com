@@ -1,13 +1,13 @@
 {
-  "name": "microcenter",
+  "name": "sdetqa",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node app"
   },
-  "description": "microcenter",
+  "description": "SDET|QA - Free Online SDET and QA Trainning",
   "author": {
-    "name": "timothy cope"
+    "name": "Timothy Cope"
   },
   "dependencies": {
     "aws-sdk": "^2.188.0",

@@ -2,55 +2,127 @@
   {
     "id": 0,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/000.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Visual Studio test tools help you deliver high quality software. Use these tools to plan, execute, and monitor your entire testing effort. Stay on top of your test plan with quality metrics, indicators, and comprehensive test status reporting."
   },
   {
     "id": 1,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/001.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Navigate to https://visualstudio.com/downloads/ and then select 'Free download 📥'"
   },
   {
     "id": 2,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/002.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Run'"
   },
   {
     "id": 3,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/003.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "(If Prompted) Select 'Yes'"
   },
   {
     "id": 4,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/004.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Continue'"
   },
   {
     "id": 5,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/005.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select '.NET desktop development' and then select 'Install'"
   },
   {
     "id": 6,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/006.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Launch' (if Visual Studio doesn't launch itself after a few minutes)"
   },
   {
     "id": 7,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/007.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Not now, maybe later.'"
   },
   {
     "id": 8,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/008.png",
-	"sectionHeading": "Installing Visual Studio 2017 Community",
+    "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Dark' and then select 'Start Visual Studio'"
+  },
+  {
+    "id": 9,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/009.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Navigate to 'https://github.com/kirbycope/sdetqa-framework-c-sharp' and then select 'Clone or download ▼'"
+  },
+  {
+    "id": 10,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/010.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Select 'Download ZIP'"
+  },
+  {
+    "id": 11,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/011.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Select 'Save'"
+  },
+  {
+    "id": 12,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/012.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Select 'Open folder'"
+  },
+  {
+    "id": 13,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/013.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Right-click on the .zip file and select 'Extract All...'"
+  },
+  {
+    "id": 14,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/014.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Select 'Extract'"
+  },
+  {
+    "id": 15,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/015.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Double-click the folder"
+  },
+  {
+    "id": 16,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/016.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Double-click the .sln file"
+  },
+  {
+    "id": 17,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/017.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Select 'Visual Studio 2017', check the box to always use this option, and then select 'OK'"
+  },
+  {
+    "id": 18,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/018.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Uncheck the 'Ask me for every project in this solution' box and then select 'OK'"
+  },
+  {
+    "id": 19,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/019.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Select 'Build' → 'Build Solution'"
+  },
+  {
+    "id": 20,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/020.png",
+    "sectionHeading": "Getting the Framework",
+    "text": "Verify the solution builds successfully"
   }
 ]
