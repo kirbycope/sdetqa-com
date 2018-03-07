@@ -124,5 +124,71 @@
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/020.png",
     "sectionHeading": "Getting the Framework",
     "text": "Verify the solution builds successfully"
+  },
+  {
+    "id": 21,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/021.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Right-click on the solution and then select 'Add' → 'New Project...'"
+  },
+  {
+    "id": 22,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/022.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Select 'Visual C#' and then 'Class Library(.NET Framework)', name your project and then select 'OK'"
+  },
+  {
+    "id": 23,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/023.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Right-click the auto-generated class file and then select 'Delete'"
+  },
+  {
+    "id": 24,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/024.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Select 'OK'"
+  },
+  {
+    "id": 25,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/025.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Right-click on 'References' and then select 'Add Reference...'"
+  },
+  {
+    "id": 26,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/026.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Select the check-box next to 'FrameworkCommon' and then select 'OK'"
+  },
+  {
+    "id": 27,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/027.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Right-click the project and then select 'Add' → 'New Folder'"
+  },
+  {
+    "id": 28,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/028.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Name the folder 'Tests' and press [Enter]"
+  },
+  {
+    "id": 29,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/029.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Right-click the project and then select 'Add' → 'New Item...'"
+  },
+  {
+    "id": 30,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Search for 'config', select 'Application Configuration File', and then select 'Add'"
+  },
+  {
+    "id": 31,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030.png",
+    "sectionHeading": "What's Next?",
+    "text": "You now have a generic project. Head back to the SDET page and pick the type of test suite you would like to develop."
   }
 ]

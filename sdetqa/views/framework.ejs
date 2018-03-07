@@ -30,9 +30,9 @@
 							<h5 class="card-title" id="sectionHeading"><%= data[slide].sectionHeading %></h5>
 							<h6 class="card-subtitle text-muted" id="slideNumber"><%= slide %></h6>
 						</div>
-						<img id="slideImage" style="display: block; margin: auto; min-height: 200px; width: 70%;" src="<%= data[slide].imgUrl %>" alt="Slide image">
+						<img id="slideImage" style="display: block; margin: auto; width: 60%;" src="<%= data[slide].imgUrl %>">
 						<div class="card-body">
-							<p id="slideText"><%= data[slide].text %></p>
+							<p id="slideText" style="min-height: 2rem;"><%= data[slide].text %></p>
 							<a id="previousLink" style="float:left;" href="javascript:previousSlide();" class="page-link" title="Previous">&laquo;</a>
 							<a id="nextLink" style="float:right;" href="javascript:nextSlide();" class="page-link" title="Next">&raquo;</a>
 						</div>
