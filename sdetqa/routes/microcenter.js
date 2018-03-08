@@ -9,8 +9,28 @@ AWS.config.loadFromPath('./config.json');
 AWS.config.update({ endpoint: "https://dynamodb.us-east-1.amazonaws.com" });
 var docClient = new AWS.DynamoDB.DocumentClient();
 
-// Create: /microcenter/product
-router.post("/product", function (req, res) {
+// Get all products
+router.get("/products", function (req, res) {
+    // DynamoDB Object
+    var params = {
+        TableName: "microcenter"
+    };
+    // GET all the Objects from the DataBase
+    docClient.scan(params, function (err, data) {
+        // If the DB request returned an error
+        if (err) {
+            // Return the error to the user
+            res.send(err);
+        }
+        else {
+            // Send the data
+            res.send(data.Items);
+        }
+    });
+});
+
+// Create: /microcenter/products
+router.post("/products", function (req, res) {
     // As a pseudo-security measure, require a Request Header with an email address
     if (req.headers["email"]) {
         // DynamoDB Object
@@ -20,7 +40,7 @@ router.post("/product", function (req, res) {
                 "description": req.body.description,
                 "price": req.body.price,
                 "savings": req.body.savings,
-                "sku": req.body.sku,
+                "sku": Number(req.params.sku),
                 "stock": req.body.stock,
                 "url": req.body.url
             }
@@ -44,7 +64,7 @@ router.post("/product", function (req, res) {
 });
 
 // Read: /microcenter/product/12345
-router.get("/product/:sku", function (req, res) {
+router.get("/products/:sku", function (req, res) {
     // DynamoDB Object
     var params = {
         TableName: "microcenter",
@@ -61,13 +81,13 @@ router.get("/product/:sku", function (req, res) {
         }
         else {
             // Send the data
-            res.send(data);
+            res.send(data.Item);
         }
     });
 });
 
 // Update: /microcenter/product/12345
-router.put("/product/:sku", function (req, res) {
+router.put("/products/:sku", function (req, res) {
     // As a pseudo-security measure, require a Request Header with an email address
     if (req.headers["email"]) {
         // Define the Update Expression
@@ -137,7 +157,7 @@ router.put("/product/:sku", function (req, res) {
 });
 
 // Delete: /microcenter/product/12345
-router.delete("/product/:sku", function (req, res) {
+router.delete("/products/:sku", function (req, res) {
     // As a pseudo-security measure, require a Request Header with an email address
     if (req.headers["email"]) {
         // DynamoDB Object
