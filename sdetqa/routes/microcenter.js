@@ -40,7 +40,7 @@ router.post("/products", function (req, res) {
                 "description": req.body.description,
                 "price": req.body.price,
                 "savings": req.body.savings,
-                "sku": Number(req.params.sku),
+                "sku": Number(req.body.sku),
                 "stock": req.body.stock,
                 "url": req.body.url
             }
