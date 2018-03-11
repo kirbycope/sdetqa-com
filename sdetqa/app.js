@@ -10,8 +10,6 @@ var bodyParser = require('body-parser');
 
 // Load the internal dependencies (.js files)
 var index = require('./routes/index');
-var framework = require('./routes/framework');
-var istqb = require('./routes/istqb');
 var microcenter = require('./routes/microcenter');
 var qa = require('./routes/qa');
 var sdet = require('./routes/sdet');
@@ -34,8 +32,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Setup app routes (controllers)
 app.use('/', index);
-app.use('/framework', framework);
-app.use('/istqb', istqb);
 app.use('/microcenter', microcenter);
 app.use('/qa', qa);
 app.use('/sdet', sdet);

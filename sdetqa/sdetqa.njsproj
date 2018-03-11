@@ -5,6 +5,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>sdetqa</Name>
     <RootNamespace>microcenter</RootNamespace>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -33,9 +34,7 @@
     <Compile Include="app.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
     <Compile Include="public\jquery\jquery-3.3.1.min.js" />
-    <Compile Include="routes\framework.js" />
     <Compile Include="routes\index.js" />
-    <Compile Include="routes\istqb.js" />
     <Compile Include="routes\microcenter.js">
       <SubType>Code</SubType>
     </Compile>
@@ -43,10 +42,13 @@
     <Compile Include="routes\sdet.js" />
     <Content Include="config.json" />
     <Content Include="data\automate-api-tests.json" />
-    <Content Include="data\framework.json">
+    <Content Include="data\sdet-api.json" />
+    <Content Include="data\sdet-framework.json">
       <SubType>Code</SubType>
     </Content>
     <Content Include="data\istqb-foundation-level.json" />
+    <Content Include="data\sdet-mobile.json" />
+    <Content Include="data\sdet-web.json" />
     <Content Include="package.json" />
     <Content Include="public\bootstrap\css\theme\default\bootstrap.min.css" />
     <Content Include="public\bootstrap\css\theme\slate\bootstrap.min.css">
@@ -56,13 +58,16 @@
     <Content Include="views\error.ejs">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="views\framework.ejs" />
+    <Content Include="views\sdet\api.ejs" />
+    <Content Include="views\sdet\framework.ejs" />
     <Content Include="views\index.ejs">
       <SubType>Code</SubType>
     </Content>
     <Content Include="views\istqb-foundation-level.ejs" />
     <Content Include="views\qa.ejs" />
     <Content Include="views\sdet.ejs" />
+    <Content Include="views\sdet\mobile.ejs" />
+    <Content Include="views\sdet\web.ejs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="data\" />
@@ -76,6 +81,7 @@
     <Folder Include="public\bootstrap\css\" />
     <Folder Include="public\jquery\" />
     <Folder Include="views\" />
+    <Folder Include="views\sdet\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

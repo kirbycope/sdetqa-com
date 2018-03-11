@@ -187,8 +187,8 @@
   },
   {
     "id": 31,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030.png",
+    "imgUrl": "",
     "sectionHeading": "What's Next?",
-    "text": "You now have a generic project. Head back to the SDET page and pick the type of test suite you would like to develop."
+    "text": "What you do next is determined by what you'll be testing. Select a Guide below to continue."
   }
 ]

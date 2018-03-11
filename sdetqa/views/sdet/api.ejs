@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>SDET|QA - Free On-line SDET Training</title>
+		<link href="<%="../public/bootstrap/css/theme/" + theme + "/bootstrap.min.css" %>" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="page-header">
+						<h1>SDET|QA</h1>
+					</div>
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="/" title="Return to Home Page">SDET|QA</a></li>
+						<li class="breadcrumb-item"><a href="/sdet" title="Return to SDET Page">SDET</a></li>
+						<li class="breadcrumb-item active">API Testing</li>
+					</ol>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="card mb-3">
+						<h1 class="card-header">Test an API Using Our Free Framework</h1>
+						<div class="card-body">
+							<h5 class="card-title" id="sectionHeading"><%= data[slide].sectionHeading %></h5>
+							<h6 class="card-subtitle text-muted" id="slideNumber"><%= slide %></h6>
+						</div>
+						<img id="slideImage" style="display: block; margin: auto; width: 60%;" src="<%= data[slide].imgUrl %>">
+						<div class="card-body">
+							<p id="slideText" style="min-height: 2rem;"><%= data[slide].text %></p>
+							<a id="previousLink" style="float:left;" href="javascript:previousSlide();" class="page-link" title="Previous">&laquo;</a>
+							<a id="nextLink" style="float:right;" href="javascript:nextSlide();" class="page-link" title="Next">&raquo;</a>
+						</div>
+						<div class="card-footer">
+							<a class="text-muted" href="mailto:Consulting@TimothyCope.com" title="Report an issue">Report an issue</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			var index = <%= slide %>;
+			var data = <%- JSON.stringify(data) %>;
+			function nextSlide() {
+				if (index + 1 != data.length) {
+					index += 1;
+					updateSlide();
+				}
+			}
+			function previousSlide() {
+				if (index > 0) {
+					index -= 1;
+					updateSlide();
+				}
+			}
+			function updateSlide() {
+					try { document.getElementById("sectionHeading").innerText = data[index].sectionHeading; } catch (err) { /* do nothing */ }
+					try { document.getElementById("slideNumber").innerText = index; } catch (err) { /* do nothing */ }
+					try { document.getElementById("slideText").innerText = data[index].text; } catch (err) { /* do nothing */ }
+					try { document.getElementById("slideImage").src = data[index].imgUrl; } catch (err) { /* do nothing */ }
+					if (index + 1 == data.length) {
+						document.getElementById("nextLink").hidden = true;
+						showLastSlideButtons();
+					}
+					else {
+						document.getElementById("nextLink").hidden = false;
+					}
+					if (index == 0) {
+						document.getElementById("previousLink").hidden = true;
+					}
+					else {
+						document.getElementById("previousLink").hidden = false;
+					}
+					var newurl = window.location.origin + window.location.pathname + '?slide=' + index;
+					window.history.replaceState({path:newurl}, '', newurl);
+			}
+			window.onload = function() {
+				if (index == 0) {
+					document.getElementById("previousLink").hidden = true;
+				}
+				else if (index + 1 == data.length) {
+					document.getElementById("nextLink").hidden = true;
+					showLastSlideButtons();
+				}
+			};
+		</script>
+	</body>
+</html>
