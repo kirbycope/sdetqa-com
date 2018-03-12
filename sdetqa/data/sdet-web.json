@@ -2,7 +2,7 @@
   {
     "id": 0,
     "imgUrl": "",
-    "sectionHeading": "",
-    "text": ""
+    "sectionHeading": "Prerequisite",
+    "text": "This guide assumes you have completed the first guide, 'Getting Started with Our Free Framework'."
   }
 ]

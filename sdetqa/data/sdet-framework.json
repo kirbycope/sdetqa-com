@@ -171,7 +171,7 @@
     "id": 28,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/028.png",
     "sectionHeading": "Creating a new Test Project",
-    "text": "Name the folder 'Tests' and press [Enter]"
+    "text": "Name the folder 'Tests' and press [Enter]."
   },
   {
     "id": 29,
@@ -187,6 +187,54 @@
   },
   {
     "id": 31,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/001.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Close the 'App.config' tab"
+  },
+  {
+    "id": 32,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/002.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Close the 'App.config' tab"
+  },
+  {
+    "id": 33,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/003.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "For each Package, select your new Project, and then select 'Install'"
+  },
+  {
+    "id": 34,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/004.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Close the 'NuGet - Solution' tab"
+  },
+  {
+    "id": 35,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/05.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Right-click on your project and then select 'Add' → 'Class...'"
+  },
+  {
+    "id": 36,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/06.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Name the class 'App' and then select 'Add'"
+  },
+  {
+    "id": 37,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/07.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
+  },
+  {
+    "id": 38,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/08.png",
+    "sectionHeading": "Creating a new Test Project",
+    "text": "Type 'public' before the class"
+  },
+  {
+    "id": 39,
     "imgUrl": "",
     "sectionHeading": "What's Next?",
     "text": "What you do next is determined by what you'll be testing. Select a Guide below to continue."
