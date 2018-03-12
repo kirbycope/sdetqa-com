@@ -195,7 +195,7 @@
     "id": 32,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/002.png",
     "sectionHeading": "Creating a new Test Project",
-    "text": "Close the 'App.config' tab"
+    "text": "Right-click the solution and then select 'Manage NuGet Packages for Solution...'"
   },
   {
     "id": 33,
