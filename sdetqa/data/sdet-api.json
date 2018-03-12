@@ -27,7 +27,7 @@
     "id": 4,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/12.png",
     "sectionHeading": "Creating Your API Test Suite",
-    "text": "Right-click the 'Tests' folder and then select 'Add' ? 'Class...'"
+    "text": "Right-click the 'Tests' folder and then select 'Add' → 'Class...'"
   },
   {
     "id": 5,
@@ -99,7 +99,7 @@
     "id": 16,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/24.png",
     "sectionHeading": "Creating Your API Test Suite",
-    "text": "Select 'Build' ? 'Clean Solution'"
+    "text": "Select 'Build' → 'Clean Solution'"
   },
   {
     "id": 17,
@@ -111,7 +111,7 @@
     "id": 18,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/26.png",
     "sectionHeading": "Creating Your API Test Suite",
-    "text": "Select 'Test' ? 'Windows' ? 'Test Explorer'"
+    "text": "Select 'Test' → 'Windows' → 'Test Explorer'"
   },
   {
     "id": 19,
