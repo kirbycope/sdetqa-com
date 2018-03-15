@@ -1,8 +1,200 @@
 [
   {
     "id": 0,
-    "imgUrl": "",
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/08.png",
     "sectionHeading": "Prerequisite",
     "text": "This guide assumes you have completed the first guide, 'Getting Started with Our Free Framework'."
+  },
+  {
+    "id": 1,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/09.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Append the class declaration with ' : AppBase'"
+  },
+  {
+    "id": 2,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/002-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select the Light-Bulb and then select 'Add reference to FrameworkDesktop'"
+  },
+  {
+    "id": 3,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/003-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Close the 'App.cs' tab"
+  },
+  {
+    "id": 4,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/004-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Right-click the 'Tests' folder and then select 'Add' ? 'Class...'"
+  },
+  {
+    "id": 5,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/005.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Name the class 'HomePage' and then select 'Add'"
+  },
+  {
+    "id": 6,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/006.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
+  },
+  {
+    "id": 7,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/007.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Prepend the class declaration with 'public' and append it with ' : TestBase'"
+  },
+  {
+    "id": 8,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/008.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select the Light-Bulb and then select 'using FrameworkDesktop'"
+  },
+  {
+    "id": 9,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/009.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Create a 'public void WebExampleTest()' method"
+  },
+  {
+    "id": 10,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/010.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Above the method, insert '[Test]'"
+  },
+  {
+    "id": 11,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/011.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select the Light-Bulb and then select 'using NUnit.Framework'"
+  },
+  {
+    "id": 12,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/012.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Define the 'url' to test"
+  },
+  {
+    "id": 13,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/013.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Add the code to navigate to the 'url'"
+  },
+  {
+    "id": 14,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/014.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Add an Assert that the page title contains the text 'SDET|QA'"
+  },
+  {
+    "id": 15,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/015.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Add a using directive to use the FrameworkCommon's Assert class (instead of NUnit)"
+  },
+  {
+    "id": 16,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/016.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'Build' ? 'Clean Solution'"
+  },
+  {
+    "id": 17,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/017.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Right-click the project and them select 'Build'"
+  },
+  {
+    "id": 18,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/018.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'Test' ? 'Windows' ? 'Test Explorer'"
+  },
+  {
+    "id": 19,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/019.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Press [Windows] then type 'this pc'"
+  },
+  {
+    "id": 20,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/020.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Right-click on 'This PC' and then select 'Properties'"
+  },
+  {
+    "id": 21,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/021-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'Advance system settings'"
+  },
+  {
+    "id": 22,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/022-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'Environment Variables...'"
+  },
+  {
+    "id": 23,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/023-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'Path' and then select 'Edit...'"
+  },
+  {
+    "id": 24,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/024-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'New'"
+  },
+  {
+    "id": 25,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/025-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Type/Paste in the path of the 'Selenium' folder (included in the repo) and then select 'OK'"
+  },
+  {
+    "id": 26,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/026-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'OK'"
+  },
+  {
+    "id": 27,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/027-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'OK'"
+  },
+  {
+    "id": 28,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/028-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'OK'"
+  },
+  {
+    "id": 29,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/029-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'OK'"
+  },
+  {
+    "id": 30,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030-1.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Restart (to apply the system variable)"
+  },
+  {
+    "id": 31,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/031.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Right-click on your test and then select 'Run Selected Tests'"
+  },
+  {
+    "id": 32,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/032.png",
+    "sectionHeading": "Creating Your Web Test Suite",
+    "text": "Select 'Output' to view the test log"
   }
 ]
