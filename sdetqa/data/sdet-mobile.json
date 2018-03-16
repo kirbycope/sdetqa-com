@@ -198,10 +198,16 @@
     "text": "Add code for the 'OneTimeSetup'"
   },
   {
+    "id": 33,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/033-1.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Select the Light-Bulb and then select 'using Framework.Common'"
+  },
+  {
     "id": 34,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/034.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
-    "text": "Select the Light-Bulb and then select 'using Framework.Common'"
+    "text": "Save and close the 'TestInitializer.cs' tab"
   },
   {
     "id": 35,
@@ -216,7 +222,7 @@
     "text": "Select 'Output' to view the test log"
   },
   {
-    "id": 36,
+    "id": 37,
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/037.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Log example"
