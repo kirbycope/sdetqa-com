@@ -61,7 +61,7 @@
   },
   {
     "id": 10,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/010-2.png",
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/010-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Above the method, insert '[Test]'"
   },
@@ -148,5 +148,77 @@
     "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/024-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Add a using directive to use the FrameworkCommon's Assert class (instead of NUnit)"
+  },
+  {
+    "id": 25,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/025-2.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "(Optional) Save and close the 'MainActivity.cs' tab"
+  },
+  {
+    "id": 26,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/026-2.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Right-click the project and then select 'Add' ? 'Class'"
+  },
+  {
+    "id": 27,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/027-2.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Name the class 'TestInitializer' and then select 'Add'"
+  },
+  {
+    "id": 28,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/028-2.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
+  },
+  {
+    "id": 29,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/029-2.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Above the class declaration, add '[SetUpFixture]'"
+  },
+  {
+    "id": 30,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030-2.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Select the Light-Bulb and then select 'using NUnit.Framework'"
+  },
+  {
+    "id": 31,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/031-1.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Prepend the class declaration with 'public'"
+  },
+  {
+    "id": 32,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/032-1.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Add code for the 'OneTimeSetup'"
+  },
+  {
+    "id": 34,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/034.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Select the Light-Bulb and then select 'using Framework.Common'"
+  },
+  {
+    "id": 35,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/035.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "(With an Android Emulator and Appium Desktop already running) Right-click on the test and then select 'Run Selected Tests'"
+  },
+  {
+    "id": 36,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/036.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Select 'Output' to view the test log"
+  },
+  {
+    "id": 36,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/037.png",
+    "sectionHeading": "Creating Your Mobile Test Suite",
+    "text": "Log example"
   }
 ]
