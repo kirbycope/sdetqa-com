@@ -34,6 +34,8 @@
     <Compile Include="app.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
     <Compile Include="public\jquery\jquery-3.3.1.min.js" />
+    <Compile Include="public\scripts\slide-controls-framework.js" />
+    <Compile Include="public\scripts\slide-controls.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\microcenter.js">
       <SubType>Code</SubType>
@@ -63,7 +65,7 @@
     <Content Include="views\index.ejs">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="views\istqb-foundation-level.ejs" />
+    <Content Include="views\qa\istqb-foundation-level.ejs" />
     <Content Include="views\qa.ejs" />
     <Content Include="views\sdet.ejs" />
     <Content Include="views\sdet\mobile.ejs" />
@@ -76,11 +78,13 @@
     <Folder Include="public\bootstrap\css\theme\default\" />
     <Folder Include="public\bootstrap\css\theme\slate\" />
     <Folder Include="public\bootstrap\js\" />
+    <Folder Include="public\scripts\" />
     <Folder Include="routes\" />
     <Folder Include="public\bootstrap\" />
     <Folder Include="public\bootstrap\css\" />
     <Folder Include="public\jquery\" />
     <Folder Include="views\" />
+    <Folder Include="views\qa\" />
     <Folder Include="views\sdet\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

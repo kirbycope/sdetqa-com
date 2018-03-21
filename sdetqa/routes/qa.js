@@ -15,7 +15,7 @@ router.get('/', function (req, res) {
 /* GET 'ISTQB Foundation Level Study Guide' page. */
 router.get('/istqb-foundation-level', function (req, res) {
     var jsonData = require('../data/istqb-foundation-level.json');
-    res.render('istqb-foundation-level', {
+    res.render('qa/istqb-foundation-level', {
         static_path: 'public',
         theme: process.env.THEME || 'slate',
         flask_debug: process.env.FLASK_DEBUG || 'false',
