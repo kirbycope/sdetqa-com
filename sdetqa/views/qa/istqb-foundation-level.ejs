@@ -9,7 +9,7 @@
 		<link href="<%="../public/bootstrap/css/theme/" + theme + "/bootstrap.min.css" %>" rel="stylesheet">
 	</head>
 	<body>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="page-header">
@@ -26,22 +26,32 @@
 				<div class="col-lg-12">
 					<div class="card mb-3">
 						<h1 class="card-header">ISTQB Certified Tester Foundation Level Certificate Guide</h1>
-						<div class="card-body">
-							<h5 class="card-title" id="sectionHeading"><%= data[slide].sectionHeading %></h5>
-							<h6 class="card-subtitle text-muted" id="section"><%= data[slide].section %></h6>
-						</div>
-						<img id="slideImage" style="display: block; margin: auto; min-height: 200px; width: 60%;" src="<%= data[slide].imgUrl %>">
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item" id="syllabusText"><%= data[slide].syllabusText %></li>
-							<li class="list-group-item" id="fostSynopsis"><%= data[slide].fostSynopsis %></li>
-							<li class="list-group-item" id="aostSynopsis"><%= data[slide].aostSynopsis %></li>
-						</ul>
-						<div class="card-body">
-							<a id="previousLink" style="float:left;" href="javascript:previousSlide();" class="page-link" title="Previous">&laquo;</a>
-							<a id="nextLink" style="float:right;" href="javascript:nextSlide();" class="page-link" title="Next">&raquo;</a>
+						<div class="card-body row">
+							<div class="col-md-8">
+								<img id="slideImage" style="display: block; margin: 0 auto; max-width:100%;" src="<%= data[slide].imgUrl %>">
+							</div>
+							<div class="col-md-4">
+								<h5 class="card-title" id="sectionHeading"><%= data[slide].sectionHeading %></h5>
+								<h6 class="card-subtitle text-muted" id="section"><%= data[slide].section %></h6>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item" id="syllabusText"><%= data[slide].syllabusText %></li>
+									<li class="list-group-item" id="fostSynopsis"><%= data[slide].fostSynopsis %></li>
+									<li class="list-group-item" id="aostSynopsis"><%= data[slide].aostSynopsis %></li>
+								</ul>
+							</div>
 						</div>
 						<div class="card-footer">
-							<a class="text-muted" href="mailto:Consulting@TimothyCope.com" title="Report an issue">Report an issue</a>
+							<div class="row">
+								<div class="col-3">
+									<a id="previousLink" style="float:left;" href="javascript:previousSlide();" class="page-link" title="Previous">&laquo;</a>
+								</div>
+								<div class="col-6">
+									<p class="text-center"><span id="slideNumber"><%= slide %></span> / <span><%= data.length-1 %></span></p>
+								</div>
+								<div class="col-3">
+									<a id="nextLink" style="float:right;" href="javascript:nextSlide();" class="page-link" title="Next">&raquo;</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -50,70 +60,8 @@
 		<script>
 			var index = <%= slide %>;
 			var data = <%- JSON.stringify(data) %>;
-			function nextSlide() {
-				if (index + 1 != data.length) {
-					index += 1;
-					updateSlide();
-				}
-			}
-			function previousSlide() {
-				if (index > 0) {
-					index -= 1;
-					updateSlide();
-				}
-			}
-			function updateSlide() {
-					try { document.getElementById("sectionHeading").innerText = data[index].sectionHeading; } catch (err) { /* do nothing */ }
-					try { document.getElementById("section").innerText = data[index].section; } catch (err) { /* do nothing */ }
-					try { document.getElementById("slideImage").src = data[index].imgUrl; } catch (err) { /* do nothing */ }
-					try {
-						if (data[index].syllabusText) {
-							document.getElementById("syllabusText").innerText = "Syllabus: " + data[index].syllabusText;
-						}
-						else {
-							document.getElementById("syllabusText").innerText = "";
-						}
-					} catch (err) { /* do nothing */ }
-					try {
-						if (data[index].fostSynopsis) {
-							document.getElementById("fostSynopsis").innerText = "FoST: " + data[index].fostSynopsis;
-						}
-						else {
-							document.getElementById("fostSynopsis").innerText = "";
-						}
-					} catch (err) { /* do nothing */ }
-					try {
-						if (data[index].aostSynopsis) {
-							document.getElementById("aostSynopsis").innerText = "AoST: " + data[index].aostSynopsis;
-						}
-						else {
-							document.getElementById("aostSynopsis").innerText = "";
-						}
-					} catch (err) { /* do nothing */ }
-
-					if (index + 1 == data.length) {
-						document.getElementById("nextLink").hidden = true;
-					}
-					else {
-						document.getElementById("nextLink").hidden = false;
-					}
-					if (index == 0) {
-						document.getElementById("previousLink").hidden = true;
-					}
-					else {
-						document.getElementById("previousLink").hidden = false;
-					}
-					var newurl = window.location.origin + window.location.pathname + '?slide=' + index;
-					window.history.replaceState({path:newurl}, '', newurl);
-			}
-			window.onload = function() {
-				if (index == 0) {
-					document.getElementById("previousLink").hidden = true;
-				}
-				else if (index + 1 == data.length) {
-					document.getElementById("nextLink").hidden = true;
-				}
-			};
 		</script>
+		<script src="../public/scripts/slide-controls.js"></script>
+		<script src="../public/scripts/slide-controls-qa-istqb-foundation.js"></script>
 	</body>
 </html>

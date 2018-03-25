@@ -1,3 +1,10 @@
+function hideLastSlideButtons() {
+    var buttonRow = document.getElementById("buttonRow");
+    if (buttonRow) {
+        buttonRow.parentElement.removeChild(buttonRow);
+    }
+}
+
 function nextSlide() {
     if (index + 1 != data.length) {
         index += 1;
@@ -12,12 +19,7 @@ function previousSlide() {
     }
 }
 
-function updateSlide(callback) {
-
-    try { document.getElementById("sectionHeading").innerText = data[index].sectionHeading; } catch (err) { /* do nothing */ }
-    try { document.getElementById("slideNumber").innerText = index; } catch (err) { /* do nothing */ }
-    try { document.getElementById("slideText").innerText = data[index].text; } catch (err) { /* do nothing */ }
-    try { document.getElementById("slideImage").src = data[index].imgUrl; } catch (err) { /* do nothing */ }
+function updateSlideControls() {
 
     if (index + 1 == data.length) {
         document.getElementById("nextLink").hidden = true;
@@ -25,6 +27,7 @@ function updateSlide(callback) {
     }
     else {
         document.getElementById("nextLink").hidden = false;
+        hideLastSlideButtons();
     }
 
     if (index == 0) {
@@ -36,7 +39,6 @@ function updateSlide(callback) {
 
     var newurl = window.location.origin + window.location.pathname + '?slide=' + index;
     window.history.replaceState({ path: newurl }, '', newurl);
-
 }
 
 window.onload = function () {

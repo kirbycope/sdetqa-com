@@ -34,7 +34,11 @@
     <Compile Include="app.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
     <Compile Include="public\jquery\jquery-3.3.1.min.js" />
-    <Compile Include="public\scripts\slide-controls-framework.js" />
+    <Compile Include="public\scripts\slide-controls-sdet-web.js" />
+    <Compile Include="public\scripts\slide-controls-sdet-mobile.js" />
+    <Compile Include="public\scripts\slide-controls-sdet-framework.js" />
+    <Compile Include="public\scripts\slide-controls-qa-istqb-foundation.js" />
+    <Compile Include="public\scripts\slide-controls-sdet-api.js" />
     <Compile Include="public\scripts\slide-controls.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\microcenter.js">
@@ -60,6 +64,8 @@
     <Content Include="views\error.ejs">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="views\partials\footer.ejs" />
+    <Content Include="views\partials\slide.ejs" />
     <Content Include="views\sdet\api.ejs" />
     <Content Include="views\sdet\framework.ejs" />
     <Content Include="views\index.ejs">
@@ -84,6 +90,7 @@
     <Folder Include="public\bootstrap\css\" />
     <Folder Include="public\jquery\" />
     <Folder Include="views\" />
+    <Folder Include="views\partials\" />
     <Folder Include="views\qa\" />
     <Folder Include="views\sdet\" />
   </ItemGroup>
