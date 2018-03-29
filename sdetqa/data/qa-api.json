@@ -1,0 +1,182 @@
+[
+  {
+    "id": 0,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/00.png",
+    "sectionHeading": "What is an API?",
+    "text": "An 'application programming interface' (API) is a set of actions, templates, and tools for interacting with software. One such example is the Web API and will be the focus on this guide. A web API will allow the user to make HTTP(s) calls to a web service and get back some data in return; typically JSON or XML."
+  },
+  {
+    "id": 1,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/01.png",
+    "sectionHeading": "What Do I Use to Test?",
+    "text": "You can use anything capable of building, sending, and receiving HTTP(s) requests. This guide will use PostMan, a popular GUI based product."
+  },
+  {
+    "id": 2,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/02.png",
+    "sectionHeading": "What Do I Test?",
+    "text": "Start with C.R.U.D. operations using thier correlated HTTP Verb. Create a record by POSTing one. Read a record using a GET. Update a record using PUT. Delete the record using DELETE."
+  },
+  {
+    "id": 3,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/03.png",
+    "sectionHeading": "How Do I Test?",
+    "text": "Start by opening PostMan and dismissing any prompts so you end on the new request view"
+  },
+  {
+    "id": 4,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/04.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Change the HTTP verb to 'POST'"
+  },
+  {
+    "id": 5,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/05-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Enter the URL of the endpoint to be tested"
+  },
+  {
+    "id": 6,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/06-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Select the 'Body' tab"
+  },
+  {
+    "id": 7,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/07-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Select 'x-www-form-urlencoded'"
+  },
+  {
+    "id": 8,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/08-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Add a 'key' name"
+  },
+  {
+    "id": 9,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/09-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Add a 'key' value"
+  },
+  {
+    "id": 10,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/10-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Select 'Send'"
+  },
+  {
+    "id": 11,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/11-1.png",
+    "sectionHeading": "Making a Create/POST in PostMan",
+    "text": "Your new record will be returned in the Response's Body."
+  },
+  {
+    "id": 12,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/12-1.png",
+    "sectionHeading": "Making a Read/GET in PostMan",
+    "text": "Select a new tab in PostMan"
+  },
+  {
+    "id": 13,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/13-1.png",
+    "sectionHeading": "Making a Read/GET in PostMan",
+    "text": "Enter the URL of the endpoint to be tested"
+  },
+  {
+    "id": 14,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/14-1.png",
+    "sectionHeading": "Making a Read/GET in PostMan",
+    "text": "Select 'Send'"
+  },
+  {
+    "id": 15,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/15-1.png",
+    "sectionHeading": "Making a Read/GET in PostMan",
+    "text": "Your new record will be returned in the Response's Body."
+  },
+  {
+    "id": 16,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/16-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Select a new tab in PostMan"
+  },
+  {
+    "id": 17,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/17-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Change the HTTP verb to 'PUT'"
+  },
+  {
+    "id": 18,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/18-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Enter the URL of the endpoint to be tested"
+  },
+  {
+    "id": 19,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/19-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Select the 'Body' tab"
+  },
+  {
+    "id": 20,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/20-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Select 'x-www-form-urlencoded'"
+  },
+  {
+    "id": 21,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/21-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Add a 'key' name"
+  },
+  {
+    "id": 22,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/22-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Add a 'key' value"
+  },
+  {
+    "id": 23,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/23-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Select 'Send'"
+  },
+  {
+    "id": 24,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/24-1.png",
+    "sectionHeading": "Making an Update/PUT in PostMan",
+    "text": "Your updated record will be returned in the Response's Body."
+  },
+  {
+    "id": 25,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/25-1.png",
+    "sectionHeading": "Making a Delete/DELETE in PostMan",
+    "text": "Select a new tab in PostMan"
+  },
+  {
+    "id": 26,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/26-1.png",
+    "sectionHeading": "Making a Delete/DELETE in PostMan",
+    "text": "Change the HTTP verb to 'DELETE'"
+  },
+  {
+    "id": 27,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/27-1.png",
+    "sectionHeading": "Making a Delete/DELETE in PostMan",
+    "text": "Enter the URL of the endpoint to be tested"
+  },
+  {
+    "id": 28,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/28-1.png",
+    "sectionHeading": "Making a Delete/DELETE in PostMan",
+    "text": "Select 'Send'"
+  },
+  {
+    "id": 29,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/29-1.png",
+    "sectionHeading": "Making a Delete/DELETE in PostMan",
+    "text": "Your response should be an 'OK'"
+  }
+]

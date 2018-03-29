@@ -48,6 +48,7 @@
     <Compile Include="routes\sdet.js" />
     <Content Include="config.json" />
     <Content Include="data\automate-api-tests.json" />
+    <Content Include="data\qa-api.json" />
     <Content Include="data\sdet-api.json" />
     <Content Include="data\sdet-framework.json">
       <SubType>Code</SubType>
@@ -66,6 +67,7 @@
     </Content>
     <Content Include="views\partials\footer.ejs" />
     <Content Include="views\partials\slide.ejs" />
+    <Content Include="views\qa\api.ejs" />
     <Content Include="views\sdet\api.ejs" />
     <Content Include="views\sdet\framework.ejs" />
     <Content Include="views\index.ejs">

@@ -24,4 +24,17 @@ router.get('/istqb-foundation-level', function (req, res) {
     });
 });
 
+/* GET 'API Testing' page. */
+router.get('/api', function (req, res) {
+    var jsonData = require('../data/qa-api.json');
+    res.render('qa/api', {
+        static_path: 'public',
+        theme: process.env.THEME || 'slate',
+        flask_debug: process.env.FLASK_DEBUG || 'false',
+        data: jsonData,
+        slide: req.query.slide || 0
+    });
+});
+
+
 module.exports = router;
