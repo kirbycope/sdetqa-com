@@ -36,5 +36,16 @@ router.get('/api', function (req, res) {
     });
 });
 
+/* GET 'Web Application Testing' page. */
+router.get('/web', function (req, res) {
+    var jsonData = require('../data/qa-web.json');
+    res.render('qa/web', {
+        static_path: 'public',
+        theme: process.env.THEME || 'slate',
+        flask_debug: process.env.FLASK_DEBUG || 'false',
+        data: jsonData,
+        slide: req.query.slide || 0
+    });
+});
 
 module.exports = router;

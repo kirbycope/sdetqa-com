@@ -34,11 +34,8 @@
     <Compile Include="app.js" />
     <Compile Include="public\bootstrap\js\bootstrap.min.js" />
     <Compile Include="public\jquery\jquery-3.3.1.min.js" />
-    <Compile Include="public\scripts\slide-controls-sdet-web.js" />
-    <Compile Include="public\scripts\slide-controls-sdet-mobile.js" />
-    <Compile Include="public\scripts\slide-controls-sdet-framework.js" />
+    <Compile Include="public\scripts\slide-controls-general.js" />
     <Compile Include="public\scripts\slide-controls-qa-istqb-foundation.js" />
-    <Compile Include="public\scripts\slide-controls-sdet-api.js" />
     <Compile Include="public\scripts\slide-controls.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\microcenter.js">
@@ -49,6 +46,8 @@
     <Content Include="config.json" />
     <Content Include="data\automate-api-tests.json" />
     <Content Include="data\qa-api.json" />
+    <Content Include="data\qa-mobile.json" />
+    <Content Include="data\qa-web.json" />
     <Content Include="data\sdet-api.json" />
     <Content Include="data\sdet-framework.json">
       <SubType>Code</SubType>
@@ -68,6 +67,7 @@
     <Content Include="views\partials\footer.ejs" />
     <Content Include="views\partials\slide.ejs" />
     <Content Include="views\qa\api.ejs" />
+    <Content Include="views\qa\web.ejs" />
     <Content Include="views\sdet\api.ejs" />
     <Content Include="views\sdet\framework.ejs" />
     <Content Include="views\index.ejs">

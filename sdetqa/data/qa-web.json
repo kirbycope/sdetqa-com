@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/000-2.png",
+    "sectionHeading": "Web Application Testing",
+    "text": "Testing your app is done against permutations of browsers and operating systems."
+  },
+  {
+    "id": 1,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/001-1.png",
+    "sectionHeading": "Considerations for Testing Permutations",
+    "text": "Do your intial and exploratory testing in the most used browser/os. This guide will use Chrome and Windows."
+  },
+  {
+    "id": 2,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/002-3.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Open Google's 'Chrome' web browser."
+  },
+  {
+    "id": 3,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/003-3.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Navigate to 'https://www.google.com/'."
+  },
+  {
+    "id": 4,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/004-3.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "In the search field, enter some text."
+  },
+  {
+    "id": 5,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/005-2.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Select the 'Google Search' button."
+  },
+  {
+    "id": 6,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/006-2.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Verify: There are search results. You have just completed a 'Functional', 'Happy Path' test of Google's search."
+  },
+  {
+    "id": 7,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/007-2.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Check for errors in 'Dev Tools' by pressing [F12]. If there are errors, then an indicator will be displayed (where the slide has been highlighted). Clicking the indicator will show you the errors in the 'Console' tab."
+  },
+  {
+    "id": 8,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/008-2.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Select the 'Network' tab."
+  },
+  {
+    "id": 9,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/009-2.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Select the 'Disable cache' radio button and then reload the page."
+  },
+  {
+    "id": 10,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/010-2.png",
+    "sectionHeading": "Testing a Web Application",
+    "text": "Verify: There are no 4xx or 5xx Status codes and that the page loaded in an acceptable amount of time."
+  }
+]
