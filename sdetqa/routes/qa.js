@@ -36,6 +36,18 @@ router.get('/api', function (req, res) {
     });
 });
 
+/* GET 'Mobile Testing' page. */
+router.get('/mobile', function (req, res) {
+    var jsonData = require('../data/qa-mobile.json');
+    res.render('qa/mobile', {
+        static_path: 'public',
+        theme: process.env.THEME || 'slate',
+        flask_debug: process.env.FLASK_DEBUG || 'false',
+        data: jsonData,
+        slide: req.query.slide || 0
+    });
+});
+
 /* GET 'Web Application Testing' page. */
 router.get('/web', function (req, res) {
     var jsonData = require('../data/qa-web.json');

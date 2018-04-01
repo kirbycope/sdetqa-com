@@ -67,6 +67,7 @@
     <Content Include="views\partials\footer.ejs" />
     <Content Include="views\partials\slide.ejs" />
     <Content Include="views\qa\api.ejs" />
+    <Content Include="views\qa\mobile.ejs" />
     <Content Include="views\qa\web.ejs" />
     <Content Include="views\sdet\api.ejs" />
     <Content Include="views\sdet\framework.ejs" />
