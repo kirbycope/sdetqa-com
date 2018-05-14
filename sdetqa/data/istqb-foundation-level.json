@@ -418,5 +418,495 @@
     "syllabusText": "",
     "fostSynopsis": "",
     "aostSynopsis": ""
+  },
+  {
+    "id": 42,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0042-white.png",
+    "knowledgeLevel": 4,
+    "section": "4",
+    "sectionHeading": "Test Design Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 43,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0043-white.png",
+    "knowledgeLevel": 3,
+    "section": "4.1",
+    "sectionHeading": "The Test Development Process",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 44,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0044-white.png",
+    "knowledgeLevel": 2,
+    "section": "4.2",
+    "sectionHeading": "Categories of Test Design Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 45,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0045-white.png",
+    "knowledgeLevel": 3,
+    "section": "4.3",
+    "sectionHeading": "Specification-based or Black-box Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 46,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0046-white.png",
+    "knowledgeLevel": 3,
+    "section": "4.3.1",
+    "sectionHeading": "Equivalence Partioning",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 47,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0047-white.png",
+    "knowledgeLevel": 3,
+    "section": "4.3.2",
+    "sectionHeading": "Boundry Value Analysis",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 48,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0048-white.png",
+    "knowledgeLevel": 3,
+    "section": "4.3.3",
+    "sectionHeading": "Decision Table Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 49,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0049-white.png",
+    "knowledgeLevel": 3,
+    "section": "4.3.4",
+    "sectionHeading": "State Transition Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 50,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0050-white.png",
+    "knowledgeLevel": 2,
+    "section": "4.3.5",
+    "sectionHeading": "Use Case Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 51,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0051-white.png",
+    "knowledgeLevel": 4,
+    "section": "4.4",
+    "sectionHeading": "Structure-based or White-box Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 52,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0052-white.png",
+    "knowledgeLevel": 4,
+    "section": "4.4.1",
+    "sectionHeading": "Statement Testing and Coverage",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 53,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0053-white.png",
+    "knowledgeLevel": 4,
+    "section": "4.4.2",
+    "sectionHeading": "Decision Testing and Coverage",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 54,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0054-white.png",
+    "knowledgeLevel": 1,
+    "section": "4.4.3",
+    "sectionHeading": "Other Structure-based Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 55,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0055-white.png",
+    "knowledgeLevel": 2,
+    "section": "4.5",
+    "sectionHeading": "Experience-based Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 56,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0056-white.png",
+    "knowledgeLevel": 2,
+    "section": "4.6",
+    "sectionHeading": "Choosing Test Techniques",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 57,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0057-white.png",
+    "knowledgeLevel": 3,
+    "section": "5",
+    "sectionHeading": "Test Management",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 58,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0058-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.1",
+    "sectionHeading": "Test Organization",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 59,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0059-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.1.1",
+    "sectionHeading": "Test Organization and Independence",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 60,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0060-white.png",
+    "knowledgeLevel": 1,
+    "section": "5.1.2",
+    "sectionHeading": "Tasks of the Test Leader and Tester",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 61,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0061-white.png",
+    "knowledgeLevel": 3,
+    "section": "5.2",
+    "sectionHeading": "Test Planning and Estimation",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 62,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0062-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.2.1",
+    "sectionHeading": "Test Planning",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 63,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0063-white.png",
+    "knowledgeLevel": 3,
+    "section": "5.2.2",
+    "sectionHeading": "Test Planning Activities",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 64,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0064-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.2.3",
+    "sectionHeading": "Entry Criteria",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 65,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0065-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.2.4",
+    "sectionHeading": "Exit Criteria",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 66,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0066-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.2.5",
+    "sectionHeading": "Test Estimation",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 67,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0067-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.2.6",
+    "sectionHeading": "Test Strategy, Test Approach",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 68,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0068-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.3",
+    "sectionHeading": "Test Progress Monitoring and Control",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 69,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0069-white.png",
+    "knowledgeLevel": 1,
+    "section": "5.3",
+    "sectionHeading": "Test Progress Monitoring",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 70,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0070-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.3.2",
+    "sectionHeading": "Test Reporting",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 71,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0071-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.3.3",
+    "sectionHeading": "Test Control",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 72,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0072-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.4",
+    "sectionHeading": "Configuration Management",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 73,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0073-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.5",
+    "sectionHeading": "Risk and Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 74,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0074-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.5.1",
+    "sectionHeading": "Project Risks",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 75,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0075-white.png",
+    "knowledgeLevel": 2,
+    "section": "5.5.2",
+    "sectionHeading": "Product Risks",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 76,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0076-white.png",
+    "knowledgeLevel": 3,
+    "section": "5.6",
+    "sectionHeading": "Incident Management",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 77,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0077-white.png",
+    "knowledgeLevel": 2,
+    "section": "6",
+    "sectionHeading": "Tool Support for Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 78,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0078-white.png",
+    "knowledgeLevel": 2,
+    "section": "6.1",
+    "sectionHeading": "Types of Test Tools",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 79,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0079-white.png",
+    "knowledgeLevel": 2,
+    "section": "6.1.1",
+    "sectionHeading": "Tool Support for Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 80,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0080-white.png",
+    "knowledgeLevel": 2,
+    "section": "6.1.2",
+    "sectionHeading": "Test Tool Classification",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 81,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0081-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.1.3",
+    "sectionHeading": "Tool Support for Management of Testing and Tests",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 82,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0082-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.1.4",
+    "sectionHeading": "Tool Support for Static Testing",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 83,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0083-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.1.5",
+    "sectionHeading": "Tool Support for Test Specification",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 84,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0084-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.1.6",
+    "sectionHeading": "Tool Support for Test Execution and Logging",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 85,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0085-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.1.7",
+    "sectionHeading": "Tool Support for Performance and Monitoring",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 86,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0086-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.1.8",
+    "sectionHeading": "Tool Support for Specific Testing Needs",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 87,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0087-white.png",
+    "knowledgeLevel": 2,
+    "section": "6.2",
+    "sectionHeading": "Effective Use of Tools: Potential Benefits and Risks",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 88,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0088-white.png",
+    "knowledgeLevel": 2,
+    "section": "6.2.1",
+    "sectionHeading": "Potential Benefits and Risks of Tool Support for Testing (for all tools)",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 89,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0089-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.2.2",
+    "sectionHeading": "Special Consideration for Some Types of Tools",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
+  },
+  {
+    "id": 90,
+    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0090-white.png",
+    "knowledgeLevel": 1,
+    "section": "6.3",
+    "sectionHeading": "Introducing a Tool into an Organization",
+    "syllabusText": "",
+    "fostSynopsis": "",
+    "aostSynopsis": ""
   }
 ]
