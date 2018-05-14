@@ -206,7 +206,7 @@
     "section": "2.1.1",
     "sectionHeading": "V-model (Sequential Development Model)",
     "syllabusText": "Although variants of the V-model exist, a common type of V-model uses four test levels, corresponding to the four development levels. 1 - Component (unit) testing. 2 - Integration testing. 3 - System testing. 4 - Acceptance testing.",
-    "fostSynopsis": "",
+    "fostSynopsis": "The V-model is a model that illustrates how testing activities (verification and validation) can be integrated into each phase of the life cycle. Within the V-model, validation testing takes place especially during the early stages, e.g. reviewing the user requirements, and late in the life cycle, e.g. during user acceptance testing. (p. 29)",
     "aostSynopsis": ""
   },
   {
@@ -215,8 +215,8 @@
     "knowledgeLevel": 2,
     "section": "2.1.2",
     "sectionHeading": "Iterative-incremental Development Models",
-    "syllabusText": "",
-    "fostSynopsis": "",
+    "syllabusText": "Iterative-incremental development is the process of establishing requirements, desinging, building and testing a system in a series of short development cycles.",
+    "fostSynopsis": "Subsequent increments will need testing for the new functionality, regression testing of the existing functionality, and integration testing of both new and existing parts. Regression testing is increasingly important on all iterations after the first one. (p. 30-31)",
     "aostSynopsis": ""
   },
   {
@@ -225,8 +225,8 @@
     "knowledgeLevel": 2,
     "section": "2.1.3",
     "sectionHeading": "Testing within a Life Cycle Model",
-    "syllabusText": "",
-    "fostSynopsis": "",
+    "syllabusText": "Test levels can be combined or reorganized depending on the nature of the project or the system architecure.",
+    "fostSynopsis": "There are several characteristics of good testing: 1 - For every development activity there is a corresponding testing activity. 2 - Each test level has test objectives specific to that level. 3 - The analysis and design of tests for a given test level should begin during the corresponding development activity. 4- Testers should be involved in reviewing documents as soon as drafts are available in the development cycle. (p. 34)",
     "aostSynopsis": ""
   },
   {
@@ -235,7 +235,7 @@
     "knowledgeLevel": 2,
     "section": "2.2",
     "sectionHeading": "Test Levels",
-    "syllabusText": "",
+    "syllabusText": "For each of the test levels, the following can be identified: the generic objectives, the work product(s) being referenced for deriving test cases (i.e., the test basis), the test object (i.e., what is being tested), typical defects and failures to be found, test harness requirements and tool support, and specific approaches and responsibilities.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -245,7 +245,7 @@
     "knowledgeLevel": 2,
     "section": "2.2.1",
     "sectionHeading": "Component Testing",
-    "syllabusText": "",
+    "syllabusText": "Component testing (also known as unit, module or program testing) searches for defects in, and verifies the functioning of, software modules, programs, objects, classes, etc., that are separately testable. It may be done in isolation from the rest of the system, depending on the context of the development life cycle and the system. Stubs, drivers and simulators may be used.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -255,7 +255,7 @@
     "knowledgeLevel": 2,
     "section": "2.2.2",
     "sectionHeading": "Integration Testing",
-    "syllabusText": "",
+    "syllabusText": "Integration testing tests interfaces between components, interactions with different parts of a system, such as the operating system, file system and hardware, and interfaces between systems.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -265,7 +265,7 @@
     "knowledgeLevel": 2,
     "section": "2.2.3",
     "sectionHeading": "System Testing",
-    "syllabusText": "",
+    "syllabusText": "System testing is concerned with the behavior of a whole system/product. The testing scope shall be clearly addressed in the Master and/or Level Test Plan for that test level.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -275,7 +275,7 @@
     "knowledgeLevel": 2,
     "section": "2.2.4",
     "sectionHeading": "Acceptance Testing",
-    "syllabusText": "",
+    "syllabusText": "Acceptance testing is often the responsibility of the customers or users of a system; other stakeholders may be involved as well.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -285,7 +285,7 @@
     "knowledgeLevel": 2,
     "section": "2.3",
     "sectionHeading": "Test Types",
-    "syllabusText": "",
+    "syllabusText": "A group of test activities can be aimed at verifying the software system (or a part of a system) based on a specific reason or target for testing.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -295,7 +295,7 @@
     "knowledgeLevel": 2,
     "section": "2.3.1",
     "sectionHeading": "Testing of Function (Functional Testing)",
-    "syllabusText": "",
+    "syllabusText": "Functional tests are based on functions and features (described in documents or understood by the testers) and their interoperability with specific systems, and may be performed at all test levels (e.g., tests for components may be based on a component specification).",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -305,7 +305,7 @@
     "knowledgeLevel": 2,
     "section": "2.3.2",
     "sectionHeading": "Testing of Non-functional Software Characteristics (Non-functional Testing)",
-    "syllabusText": "",
+    "syllabusText": "The term non-functional testing describes the tests required to measure characteristics of systems and software that can be quantified on a varying scale, such as response times for performance testing.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -315,7 +315,7 @@
     "knowledgeLevel": 2,
     "section": "2.3.3",
     "sectionHeading": "Testing of Software/Architecture (Structural Testing)",
-    "syllabusText": "",
+    "syllabusText": "Structural (white-box) testing may be performed at all test levels. Structural techniques are best used after specification-based techniques, in order to help measure the thoroughness of testing through assessment of coverage of a type of structure.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -325,7 +325,7 @@
     "knowledgeLevel": 2,
     "section": "2.3.4",
     "sectionHeading": "Testing Related to Changes: Re-testing and Regression Testing",
-    "syllabusText": "",
+    "syllabusText": "Regression testing is the repeated testing of an already tested program, after modification, to discover any defects introduced or uncovered as a result of the change(s). These defects may be either in the software being tested, or in another related or unrelated software component. It is performed when the software, or its environment, is changed. The extent of regression testing is based on the risk of not finding defects in software that was working previously.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -335,7 +335,7 @@
     "knowledgeLevel": 2,
     "section": "2.4",
     "sectionHeading": "Maintenance Testing",
-    "syllabusText": "",
+    "syllabusText": "Once deployed, a software system is often in service for years or decades. During this time the system, its configuration data, or its environment are often corrected, changed or extended. The planning of releases in advance is crucial for successful maintenance testing. A distinction has to be made between planned releases and hot fixes. Maintenance testing is done on an existing operational system, and is triggered by modifications, migration, or retirement of the software or system.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -355,7 +355,7 @@
     "knowledgeLevel": 2,
     "section": "3.1",
     "sectionHeading": "Static Techniques and Test Process",
-    "syllabusText": "",
+    "syllabusText": "Unlike dynamic testing, which requires the execution of software, static testing techniques rely on the manual examination (reviews) and automated analysis (static analysis) of the code or other project documentation without the execution of the code.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -365,7 +365,7 @@
     "knowledgeLevel": 2,
     "section": "3.2",
     "sectionHeading": "Review Process",
-    "syllabusText": "",
+    "syllabusText": "The different types of reviews vary from informal, characterized by no written instructions for reviewers, to systematic, characterized by team participation, documented results of the review, and documented procedures for conducting the review.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -375,7 +375,7 @@
     "knowledgeLevel": 1,
     "section": "3.2.1",
     "sectionHeading": "Activities of a Foraml Review",
-    "syllabusText": "",
+    "syllabusText": "A typical formal review has the following main activities: 1 - Planning. 2 - Kick-off. 3 - Individual preparation. 4 - Examination of Results. 5 - Rework. 6 - Follow-up.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -385,7 +385,7 @@
     "knowledgeLevel": 1,
     "section": "3.2.2",
     "sectionHeading": "Roles and Responsibilites",
-    "syllabusText": "",
+    "syllabusText": "Looking at software products or related work products from different perspectives and using checklists can make reviews more effective and efficient. For example, a checklist based on various perspectives such as user, maintainer, tester or operations, or a checklist of typical requirements problems may help to uncover previously undetected issues.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -395,7 +395,7 @@
     "knowledgeLevel": 2,
     "section": "3.2.3",
     "sectionHeading": "Types of Reviews",
-    "syllabusText": "",
+    "syllabusText": "A single software product or related work product may be the subject of more than one review. If more than one type of review is used, the order may vary. For example, an informal review may be carried out before a technical review, or an inspection may be carried out on a requirements specification before a walkthrough with customers",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -415,7 +415,7 @@
     "knowledgeLevel": 2,
     "section": "3.3",
     "sectionHeading": "Static Analysis by Tools",
-    "syllabusText": "",
+    "syllabusText": "The objective of static analysis is to find defects in software source code and software models. Static analysis is performed without actually executing the software being examined by the tool; dynamic testing does execute the software code. Static analysis can locate defects that are hard to find in dynamic testing. As with reviews, static analysis finds defects rather than failures. Static analysis tools analyze program code (e.g., control flow and data flow), as well as generated output such as HTML and XML.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -435,7 +435,7 @@
     "knowledgeLevel": 3,
     "section": "4.1",
     "sectionHeading": "The Test Development Process",
-    "syllabusText": "",
+    "syllabusText": "The test development process described in this section can be done in different ways, from very informal with little or no documentation, to very formal (as it is described below). The level of formality depends on the context of the testing, including the maturity of testing and development processes, time constraints, safety or regulatory requirements, and the people involved.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -445,7 +445,7 @@
     "knowledgeLevel": 2,
     "section": "4.2",
     "sectionHeading": "Categories of Test Design Techniques",
-    "syllabusText": "",
+    "syllabusText": "The purpose of a test design technique is to identify test conditions, test cases, and test data.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -465,7 +465,7 @@
     "knowledgeLevel": 3,
     "section": "4.3.1",
     "sectionHeading": "Equivalence Partioning",
-    "syllabusText": "",
+    "syllabusText": "In equivalence partitioning, inputs to the software or system are divided into groups that are expected to exhibit similar behavior, so they are likely to be processed in the same way.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -475,7 +475,7 @@
     "knowledgeLevel": 3,
     "section": "4.3.2",
     "sectionHeading": "Boundry Value Analysis",
-    "syllabusText": "",
+    "syllabusText": "The maximum and minimum values of a partition are its boundary values. A boundary value for a valid partition is a valid boundary value; the boundary of an invalid partition is an invalid boundary value.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -485,7 +485,7 @@
     "knowledgeLevel": 3,
     "section": "4.3.3",
     "sectionHeading": "Decision Table Testing",
-    "syllabusText": "",
+    "syllabusText": "Decision tables are a good way to capture system requirements that contain logical conditions, and to document internal system design. They may be used to record complex business rules that a system is to implement.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -495,7 +495,7 @@
     "knowledgeLevel": 3,
     "section": "4.3.4",
     "sectionHeading": "State Transition Testing",
-    "syllabusText": "",
+    "syllabusText": "A system may exhibit a different response depending on current conditions or previous history (its state). In this case, that aspect of the system can be shown with a state transition diagram. It allows the tester to view the software in terms of its states, transitions between states, the inputs or events that trigger state changes (transitions) and the actions which may result from those transitions. The states of the system or object under test are separate, identifiable and finite in number.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -505,7 +505,7 @@
     "knowledgeLevel": 2,
     "section": "4.3.5",
     "sectionHeading": "Use Case Testing",
-    "syllabusText": "",
+    "syllabusText": "A use case describes interactions between actors (users or systems), which produce a result of value to a system user or the customer. Use cases may be described at the abstract level (business use case, technology-free, business process level) or at the system level (system use case on the system functionality level).",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -515,7 +515,7 @@
     "knowledgeLevel": 4,
     "section": "4.4",
     "sectionHeading": "Structure-based or White-box Techniques",
-    "syllabusText": "",
+    "syllabusText": "Structure-based or white-box testing is based on an identified structure of the software or the system.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -525,7 +525,7 @@
     "knowledgeLevel": 4,
     "section": "4.4.1",
     "sectionHeading": "Statement Testing and Coverage",
-    "syllabusText": "",
+    "syllabusText": "In component testing, statement coverage is the assessment of the percentage of executable statements that have been exercised by a test case suite. The statement testing technique derives test cases to execute specific statements, normally to increase statement coverage.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -535,7 +535,7 @@
     "knowledgeLevel": 4,
     "section": "4.4.2",
     "sectionHeading": "Decision Testing and Coverage",
-    "syllabusText": "",
+    "syllabusText": "Decision coverage, related to branch testing, is the assessment of the percentage of decision outcomes (e.g., the True and False options of an IF statement) that have been exercised by a test case suite. The decision testing technique derives test cases to execute specific decision outcomes. Branches originate from decision points in the code and show the transfer of control to different locations in the code.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -545,7 +545,7 @@
     "knowledgeLevel": 1,
     "section": "4.4.3",
     "sectionHeading": "Other Structure-based Techniques",
-    "syllabusText": "",
+    "syllabusText": "There are stronger levels of structural coverage beyond decision coverage, for example, condition coverage and multiple condition coverage.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -555,7 +555,7 @@
     "knowledgeLevel": 2,
     "section": "4.5",
     "sectionHeading": "Experience-based Techniques",
-    "syllabusText": "",
+    "syllabusText": "Experience-based testing is where tests are derived from the tester’s skill and intuition and their experience with similar applications and technologies. ",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
@@ -565,7 +565,7 @@
     "knowledgeLevel": 2,
     "section": "4.6",
     "sectionHeading": "Choosing Test Techniques",
-    "syllabusText": "",
+    "syllabusText": "The choice of which test techniques to use depends on a number of factors, including the type of system, regulatory standards, customer or contractual requirements, level of risk, type of risk, test objective, documentation available, knowledge of the testers, time and budget, development life cycle, use case models and previous experience with types of defects found.",
     "fostSynopsis": "",
     "aostSynopsis": ""
   },
