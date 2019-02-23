@@ -1,157 +1,157 @@
 [
   {
     "id": 0,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/08.png",
+    "imgUrl": "/public/images/2018/03/08.png",
     "sectionHeading": "Prerequisite",
     "text": "This guide assumes you have completed the first guide, 'Getting Started with Our Free Framework'."
   },
   {
     "id": 1,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/09.png",
+    "imgUrl": "/public/images/2018/03/09.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Append the class declaration with ' : AppBase'"
   },
   {
     "id": 2,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/10.png",
+    "imgUrl": "/public/images/2018/03/10.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the Light-Bulb and then select 'Add reference to FrameworkApi'"
   },
   {
     "id": 3,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/11.png",
+    "imgUrl": "/public/images/2018/03/11.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Close the 'App.cs' tab"
   },
   {
     "id": 4,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/12.png",
+    "imgUrl": "/public/images/2018/03/12.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Right-click the 'Tests' folder and then select 'Add' → 'Class...'"
   },
   {
     "id": 5,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/13.png",
+    "imgUrl": "/public/images/2018/03/13.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Name the class 'Products' and then select 'Add'"
   },
   {
     "id": 6,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/14.png",
+    "imgUrl": "/public/images/2018/03/14.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
   },
   {
     "id": 7,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/15.png",
+    "imgUrl": "/public/images/2018/03/15.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Prepend the class declaration with 'public' and append it with ' : TestBase'"
   },
   {
     "id": 8,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/16.png",
+    "imgUrl": "/public/images/2018/03/16.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the Light-Bulb and then select 'using FrameworkApi'"
   },
   {
     "id": 9,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/17.png",
+    "imgUrl": "/public/images/2018/03/17.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Create a 'public void ApiExampleTest()' method"
   },
   {
     "id": 10,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/18.png",
+    "imgUrl": "/public/images/2018/03/18.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Above the method, insert '[Test]'"
   },
   {
     "id": 11,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/19.png",
+    "imgUrl": "/public/images/2018/03/19.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the Light-Bulb and then select 'using NUnit.Framework'"
   },
   {
     "id": 12,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/20.png",
+    "imgUrl": "/public/images/2018/03/20.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Define the 'url' to test"
   },
   {
     "id": 13,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/21.png",
+    "imgUrl": "/public/images/2018/03/21.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Add the code to make a request (via our App class) and save the response"
   },
   {
     "id": 14,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/22.png",
+    "imgUrl": "/public/images/2018/03/22.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the Light-Bulb and then select 'using System.Net.Http'"
   },
   {
     "id": 15,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/23.png",
+    "imgUrl": "/public/images/2018/03/23.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Add an Assert that the response was a sucessful one"
   },
   {
     "id": 16,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/24.png",
+    "imgUrl": "/public/images/2018/03/24.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select 'Build' → 'Clean Solution'"
   },
   {
     "id": 17,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/25.png",
+    "imgUrl": "/public/images/2018/03/25.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Right-click the project and them select 'Build'"
   },
   {
     "id": 18,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/26.png",
+    "imgUrl": "/public/images/2018/03/26.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select 'Test' → 'Windows' → 'Test Explorer'"
   },
   {
     "id": 19,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/27.png",
+    "imgUrl": "/public/images/2018/03/27.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Right-click on your test and then select 'Run Selected Tests'"
   },
   {
     "id": 20,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/28.png",
+    "imgUrl": "/public/images/2018/03/28.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the 'Output' link"
   },
   {
     "id": 21,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/29.png",
+    "imgUrl": "/public/images/2018/03/29.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Notice there is no logging for the Assert. Close the log tab."
   },
   {
     "id": 22,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/30.png",
+    "imgUrl": "/public/images/2018/03/30.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Add the using directive to use the framework's Assert class"
   },
   {
     "id": 23,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/31.png",
+    "imgUrl": "/public/images/2018/03/31.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Right-click on your test and then select 'Run Selected Tests'"
   },
   {
     "id": 24,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/32.png",
+    "imgUrl": "/public/images/2018/03/32.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Select the 'Output' link"
   },
   {
     "id": 25,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/33.png",
+    "imgUrl": "/public/images/2018/03/33.png",
     "sectionHeading": "Creating Your API Test Suite",
     "text": "Note that the Assert is now being logged"
   }

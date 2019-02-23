@@ -1,7 +1,7 @@
 [
   {
     "id": 0,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/0000.png",
+    "imgUrl": "/public/images/2018/02/0000.png",
     "knowledgeLevel": 0,
     "section": "0",
     "sectionHeading": "About This Guide",
@@ -11,7 +11,7 @@
   },
   {
     "id": 1,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0001-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0001-white.png",
     "knowledgeLevel": 2,
     "section": "1",
     "sectionHeading": "Fundamentals of Testing",
@@ -21,7 +21,7 @@
   },
   {
     "id": 2,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0002-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0002-white.png",
     "knowledgeLevel": 2,
     "section": "1.1",
     "sectionHeading": "Why is Testing Necessary",
@@ -31,7 +31,7 @@
   },
   {
     "id": 3,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0003-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0003-white.png",
     "knowledgeLevel": 1,
     "section": "1.1.1",
     "sectionHeading": "Software Systems Context",
@@ -41,7 +41,7 @@
   },
   {
     "id": 4,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0004-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0004-white.png",
     "knowledgeLevel": 2,
     "section": "1.1.2",
     "sectionHeading": "Causes of Software Defects",
@@ -51,7 +51,7 @@
   },
   {
     "id": 5,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0005-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0005-white.png",
     "knowledgeLevel": 2,
     "section": "1.1.3",
     "sectionHeading": "Role of Testing in Software Development, Maintenance and Operations ",
@@ -61,7 +61,7 @@
   },
   {
     "id": 6,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0006-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0006-white.png",
     "knowledgeLevel": 2,
     "section": "1.1.4",
     "sectionHeading": "Testing and Quality ",
@@ -71,7 +71,7 @@
   },
   {
     "id": 7,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0007-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0007-white.png",
     "knowledgeLevel": 2,
     "section": "1.1.5",
     "sectionHeading": "How Much Testing is Enough?",
@@ -81,7 +81,7 @@
   },
   {
     "id": 8,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0008-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0008-white.png",
     "knowledgeLevel": 2,
     "section": "1.2",
     "sectionHeading": "What is Testing?",
@@ -91,7 +91,7 @@
   },
   {
     "id": 9,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0009-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0009-white.png",
     "knowledgeLevel": 2,
     "section": "1.3",
     "sectionHeading": "Seven Testing Principles",
@@ -101,7 +101,7 @@
   },
   {
     "id": 10,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0010-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0010-white.png",
     "knowledgeLevel": 1,
     "section": "1.4",
     "sectionHeading": "Fundamental Test Process",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0011-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0011-white.png",
     "knowledgeLevel": 1,
     "section": "1.4.1",
     "sectionHeading": "Test Planning and Control",
@@ -121,7 +121,7 @@
   },
   {
     "id": 12,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0012-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0012-white.png",
     "knowledgeLevel": 1,
     "section": "1.4.2",
     "sectionHeading": "Test Analysis and Design",
@@ -131,7 +131,7 @@
   },
   {
     "id": 13,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0013-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0013-white.png",
     "knowledgeLevel": 1,
     "section": "1.4.3",
     "sectionHeading": "Test Implementation and Execution",
@@ -141,7 +141,7 @@
   },
   {
     "id": 14,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0014-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0014-white.png",
     "knowledgeLevel": 1,
     "section": "1.4.4",
     "sectionHeading": "Evaluating Exit Criteria and Reporting",
@@ -151,7 +151,7 @@
   },
   {
     "id": 15,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0015-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0015-white.png",
     "knowledgeLevel": 1,
     "section": "1.4.5",
     "sectionHeading": "Test Closure Activities",
@@ -161,7 +161,7 @@
   },
   {
     "id": 16,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0016-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0016-white.png",
     "knowledgeLevel": 2,
     "section": "The Psychology of Testing",
     "sectionHeading": "1.5",
@@ -171,7 +171,7 @@
   },
   {
     "id": 17,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/slide-0017-white.png",
+    "imgUrl": "/public/images/2018/02/slide-0017-white.png",
     "knowledgeLevel": 2,
     "section": "Code of Ethics",
     "sectionHeading": "1.6",
@@ -181,7 +181,7 @@
   },
   {
     "id": 18,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0018-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0018-white.png",
     "knowledgeLevel": 2,
     "section": "2",
     "sectionHeading": "Testing Throughout the Software Life Cycle",
@@ -191,7 +191,7 @@
   },
   {
     "id": 19,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0019-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0019-white.png",
     "knowledgeLevel": 2,
     "section": "2.1",
     "sectionHeading": "Software Development Models",
@@ -201,7 +201,7 @@
   },
   {
     "id": 20,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0020-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0020-white.png",
     "knowledgeLevel": 2,
     "section": "2.1.1",
     "sectionHeading": "V-model (Sequential Development Model)",
@@ -211,7 +211,7 @@
   },
   {
     "id": 21,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0021-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0021-white.png",
     "knowledgeLevel": 2,
     "section": "2.1.2",
     "sectionHeading": "Iterative-incremental Development Models",
@@ -221,7 +221,7 @@
   },
   {
     "id": 22,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0022-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0022-white.png",
     "knowledgeLevel": 2,
     "section": "2.1.3",
     "sectionHeading": "Testing within a Life Cycle Model",
@@ -231,7 +231,7 @@
   },
   {
     "id": 23,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0023-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0023-white.png",
     "knowledgeLevel": 2,
     "section": "2.2",
     "sectionHeading": "Test Levels",
@@ -241,7 +241,7 @@
   },
   {
     "id": 24,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0024-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0024-white.png",
     "knowledgeLevel": 2,
     "section": "2.2.1",
     "sectionHeading": "Component Testing",
@@ -251,7 +251,7 @@
   },
   {
     "id": 25,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0025-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0025-white.png",
     "knowledgeLevel": 2,
     "section": "2.2.2",
     "sectionHeading": "Integration Testing",
@@ -261,7 +261,7 @@
   },
   {
     "id": 26,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0026-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0026-white.png",
     "knowledgeLevel": 2,
     "section": "2.2.3",
     "sectionHeading": "System Testing",
@@ -271,7 +271,7 @@
   },
   {
     "id": 27,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0027-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0027-white.png",
     "knowledgeLevel": 2,
     "section": "2.2.4",
     "sectionHeading": "Acceptance Testing",
@@ -281,7 +281,7 @@
   },
   {
     "id": 28,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0028-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0028-white.png",
     "knowledgeLevel": 2,
     "section": "2.3",
     "sectionHeading": "Test Types",
@@ -291,7 +291,7 @@
   },
   {
     "id": 29,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0029-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0029-white.png",
     "knowledgeLevel": 2,
     "section": "2.3.1",
     "sectionHeading": "Testing of Function (Functional Testing)",
@@ -301,7 +301,7 @@
   },
   {
     "id": 30,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0030-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0030-white.png",
     "knowledgeLevel": 2,
     "section": "2.3.2",
     "sectionHeading": "Testing of Non-functional Software Characteristics (Non-functional Testing)",
@@ -311,7 +311,7 @@
   },
   {
     "id": 31,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0031-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0031-white.png",
     "knowledgeLevel": 2,
     "section": "2.3.3",
     "sectionHeading": "Testing of Software/Architecture (Structural Testing)",
@@ -321,7 +321,7 @@
   },
   {
     "id": 32,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0032-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0032-white.png",
     "knowledgeLevel": 2,
     "section": "2.3.4",
     "sectionHeading": "Testing Related to Changes: Re-testing and Regression Testing",
@@ -331,7 +331,7 @@
   },
   {
     "id": 33,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0033-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0033-white.png",
     "knowledgeLevel": 2,
     "section": "2.4",
     "sectionHeading": "Maintenance Testing",
@@ -341,7 +341,7 @@
   },
   {
     "id": 34,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0034-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0034-white.png",
     "knowledgeLevel": 2,
     "section": "3",
     "sectionHeading": "Static Techniques",
@@ -351,7 +351,7 @@
   },
   {
     "id": 35,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0035-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0035-white.png",
     "knowledgeLevel": 2,
     "section": "3.1",
     "sectionHeading": "Static Techniques and Test Process",
@@ -361,7 +361,7 @@
   },
   {
     "id": 36,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0036-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0036-white.png",
     "knowledgeLevel": 2,
     "section": "3.2",
     "sectionHeading": "Review Process",
@@ -371,7 +371,7 @@
   },
   {
     "id": 37,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0037-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0037-white.png",
     "knowledgeLevel": 1,
     "section": "3.2.1",
     "sectionHeading": "Activities of a Foraml Review",
@@ -381,7 +381,7 @@
   },
   {
     "id": 38,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0038-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0038-white.png",
     "knowledgeLevel": 1,
     "section": "3.2.2",
     "sectionHeading": "Roles and Responsibilites",
@@ -391,7 +391,7 @@
   },
   {
     "id": 39,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0039-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0039-white.png",
     "knowledgeLevel": 2,
     "section": "3.2.3",
     "sectionHeading": "Types of Reviews",
@@ -401,7 +401,7 @@
   },
   {
     "id": 40,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0040-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0040-white.png",
     "knowledgeLevel": 2,
     "section": "3.2.4",
     "sectionHeading": "Success Factors for Reviews",
@@ -411,7 +411,7 @@
   },
   {
     "id": 41,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0041-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0041-white.png",
     "knowledgeLevel": 2,
     "section": "3.3",
     "sectionHeading": "Static Analysis by Tools",
@@ -421,7 +421,7 @@
   },
   {
     "id": 42,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0042-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0042-white.png",
     "knowledgeLevel": 4,
     "section": "4",
     "sectionHeading": "Test Design Techniques",
@@ -431,7 +431,7 @@
   },
   {
     "id": 43,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0043-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0043-white.png",
     "knowledgeLevel": 3,
     "section": "4.1",
     "sectionHeading": "The Test Development Process",
@@ -441,7 +441,7 @@
   },
   {
     "id": 44,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0044-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0044-white.png",
     "knowledgeLevel": 2,
     "section": "4.2",
     "sectionHeading": "Categories of Test Design Techniques",
@@ -451,7 +451,7 @@
   },
   {
     "id": 45,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0045-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0045-white.png",
     "knowledgeLevel": 3,
     "section": "4.3",
     "sectionHeading": "Specification-based or Black-box Techniques",
@@ -461,7 +461,7 @@
   },
   {
     "id": 46,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0046-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0046-white.png",
     "knowledgeLevel": 3,
     "section": "4.3.1",
     "sectionHeading": "Equivalence Partioning",
@@ -471,7 +471,7 @@
   },
   {
     "id": 47,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0047-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0047-white.png",
     "knowledgeLevel": 3,
     "section": "4.3.2",
     "sectionHeading": "Boundry Value Analysis",
@@ -481,7 +481,7 @@
   },
   {
     "id": 48,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0048-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0048-white.png",
     "knowledgeLevel": 3,
     "section": "4.3.3",
     "sectionHeading": "Decision Table Testing",
@@ -491,7 +491,7 @@
   },
   {
     "id": 49,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0049-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0049-white.png",
     "knowledgeLevel": 3,
     "section": "4.3.4",
     "sectionHeading": "State Transition Testing",
@@ -501,7 +501,7 @@
   },
   {
     "id": 50,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0050-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0050-white.png",
     "knowledgeLevel": 2,
     "section": "4.3.5",
     "sectionHeading": "Use Case Testing",
@@ -511,7 +511,7 @@
   },
   {
     "id": 51,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0051-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0051-white.png",
     "knowledgeLevel": 4,
     "section": "4.4",
     "sectionHeading": "Structure-based or White-box Techniques",
@@ -521,7 +521,7 @@
   },
   {
     "id": 52,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0052-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0052-white.png",
     "knowledgeLevel": 4,
     "section": "4.4.1",
     "sectionHeading": "Statement Testing and Coverage",
@@ -531,7 +531,7 @@
   },
   {
     "id": 53,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0053-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0053-white.png",
     "knowledgeLevel": 4,
     "section": "4.4.2",
     "sectionHeading": "Decision Testing and Coverage",
@@ -541,7 +541,7 @@
   },
   {
     "id": 54,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0054-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0054-white.png",
     "knowledgeLevel": 1,
     "section": "4.4.3",
     "sectionHeading": "Other Structure-based Techniques",
@@ -551,7 +551,7 @@
   },
   {
     "id": 55,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0055-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0055-white.png",
     "knowledgeLevel": 2,
     "section": "4.5",
     "sectionHeading": "Experience-based Techniques",
@@ -561,7 +561,7 @@
   },
   {
     "id": 56,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0056-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0056-white.png",
     "knowledgeLevel": 2,
     "section": "4.6",
     "sectionHeading": "Choosing Test Techniques",
@@ -571,7 +571,7 @@
   },
   {
     "id": 57,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0057-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0057-white.png",
     "knowledgeLevel": 3,
     "section": "5",
     "sectionHeading": "Test Management",
@@ -581,7 +581,7 @@
   },
   {
     "id": 58,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0058-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0058-white.png",
     "knowledgeLevel": 2,
     "section": "5.1",
     "sectionHeading": "Test Organization",
@@ -591,7 +591,7 @@
   },
   {
     "id": 59,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0059-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0059-white.png",
     "knowledgeLevel": 2,
     "section": "5.1.1",
     "sectionHeading": "Test Organization and Independence",
@@ -601,7 +601,7 @@
   },
   {
     "id": 60,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0060-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0060-white.png",
     "knowledgeLevel": 1,
     "section": "5.1.2",
     "sectionHeading": "Tasks of the Test Leader and Tester",
@@ -611,7 +611,7 @@
   },
   {
     "id": 61,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0061-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0061-white.png",
     "knowledgeLevel": 3,
     "section": "5.2",
     "sectionHeading": "Test Planning and Estimation",
@@ -621,7 +621,7 @@
   },
   {
     "id": 62,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0062-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0062-white.png",
     "knowledgeLevel": 2,
     "section": "5.2.1",
     "sectionHeading": "Test Planning",
@@ -631,7 +631,7 @@
   },
   {
     "id": 63,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0063-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0063-white.png",
     "knowledgeLevel": 3,
     "section": "5.2.2",
     "sectionHeading": "Test Planning Activities",
@@ -641,7 +641,7 @@
   },
   {
     "id": 64,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0064-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0064-white.png",
     "knowledgeLevel": 2,
     "section": "5.2.3",
     "sectionHeading": "Entry Criteria",
@@ -651,7 +651,7 @@
   },
   {
     "id": 65,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0065-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0065-white.png",
     "knowledgeLevel": 2,
     "section": "5.2.4",
     "sectionHeading": "Exit Criteria",
@@ -661,7 +661,7 @@
   },
   {
     "id": 66,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0066-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0066-white.png",
     "knowledgeLevel": 2,
     "section": "5.2.5",
     "sectionHeading": "Test Estimation",
@@ -671,7 +671,7 @@
   },
   {
     "id": 67,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0067-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0067-white.png",
     "knowledgeLevel": 2,
     "section": "5.2.6",
     "sectionHeading": "Test Strategy, Test Approach",
@@ -681,7 +681,7 @@
   },
   {
     "id": 68,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0068-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0068-white.png",
     "knowledgeLevel": 2,
     "section": "5.3",
     "sectionHeading": "Test Progress Monitoring and Control",
@@ -691,7 +691,7 @@
   },
   {
     "id": 69,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0069-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0069-white.png",
     "knowledgeLevel": 1,
     "section": "5.3",
     "sectionHeading": "Test Progress Monitoring",
@@ -701,7 +701,7 @@
   },
   {
     "id": 70,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0070-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0070-white.png",
     "knowledgeLevel": 2,
     "section": "5.3.2",
     "sectionHeading": "Test Reporting",
@@ -711,7 +711,7 @@
   },
   {
     "id": 71,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0071-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0071-white.png",
     "knowledgeLevel": 2,
     "section": "5.3.3",
     "sectionHeading": "Test Control",
@@ -721,7 +721,7 @@
   },
   {
     "id": 72,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0072-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0072-white.png",
     "knowledgeLevel": 2,
     "section": "5.4",
     "sectionHeading": "Configuration Management",
@@ -731,7 +731,7 @@
   },
   {
     "id": 73,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0073-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0073-white.png",
     "knowledgeLevel": 2,
     "section": "5.5",
     "sectionHeading": "Risk and Testing",
@@ -741,7 +741,7 @@
   },
   {
     "id": 74,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0074-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0074-white.png",
     "knowledgeLevel": 2,
     "section": "5.5.1",
     "sectionHeading": "Project Risks",
@@ -751,7 +751,7 @@
   },
   {
     "id": 75,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0075-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0075-white.png",
     "knowledgeLevel": 2,
     "section": "5.5.2",
     "sectionHeading": "Product Risks",
@@ -761,7 +761,7 @@
   },
   {
     "id": 76,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0076-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0076-white.png",
     "knowledgeLevel": 3,
     "section": "5.6",
     "sectionHeading": "Incident Management",
@@ -771,7 +771,7 @@
   },
   {
     "id": 77,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0077-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0077-white.png",
     "knowledgeLevel": 2,
     "section": "6",
     "sectionHeading": "Tool Support for Testing",
@@ -781,7 +781,7 @@
   },
   {
     "id": 78,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0078-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0078-white.png",
     "knowledgeLevel": 2,
     "section": "6.1",
     "sectionHeading": "Types of Test Tools",
@@ -791,7 +791,7 @@
   },
   {
     "id": 79,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0079-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0079-white.png",
     "knowledgeLevel": 2,
     "section": "6.1.1",
     "sectionHeading": "Tool Support for Testing",
@@ -801,7 +801,7 @@
   },
   {
     "id": 80,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0080-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0080-white.png",
     "knowledgeLevel": 2,
     "section": "6.1.2",
     "sectionHeading": "Test Tool Classification",
@@ -811,7 +811,7 @@
   },
   {
     "id": 81,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0081-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0081-white.png",
     "knowledgeLevel": 1,
     "section": "6.1.3",
     "sectionHeading": "Tool Support for Management of Testing and Tests",
@@ -821,7 +821,7 @@
   },
   {
     "id": 82,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0082-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0082-white.png",
     "knowledgeLevel": 1,
     "section": "6.1.4",
     "sectionHeading": "Tool Support for Static Testing",
@@ -831,7 +831,7 @@
   },
   {
     "id": 83,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0083-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0083-white.png",
     "knowledgeLevel": 1,
     "section": "6.1.5",
     "sectionHeading": "Tool Support for Test Specification",
@@ -841,7 +841,7 @@
   },
   {
     "id": 84,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0084-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0084-white.png",
     "knowledgeLevel": 1,
     "section": "6.1.6",
     "sectionHeading": "Tool Support for Test Execution and Logging",
@@ -851,7 +851,7 @@
   },
   {
     "id": 85,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0085-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0085-white.png",
     "knowledgeLevel": 1,
     "section": "6.1.7",
     "sectionHeading": "Tool Support for Performance and Monitoring",
@@ -861,7 +861,7 @@
   },
   {
     "id": 86,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0086-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0086-white.png",
     "knowledgeLevel": 1,
     "section": "6.1.8",
     "sectionHeading": "Tool Support for Specific Testing Needs",
@@ -871,7 +871,7 @@
   },
   {
     "id": 87,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0087-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0087-white.png",
     "knowledgeLevel": 2,
     "section": "6.2",
     "sectionHeading": "Effective Use of Tools: Potential Benefits and Risks",
@@ -881,7 +881,7 @@
   },
   {
     "id": 88,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0088-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0088-white.png",
     "knowledgeLevel": 2,
     "section": "6.2.1",
     "sectionHeading": "Potential Benefits and Risks of Tool Support for Testing (for all tools)",
@@ -891,7 +891,7 @@
   },
   {
     "id": 89,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0089-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0089-white.png",
     "knowledgeLevel": 1,
     "section": "6.2.2",
     "sectionHeading": "Special Consideration for Some Types of Tools",
@@ -901,7 +901,7 @@
   },
   {
     "id": 90,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/05/slide-0090-white.png",
+    "imgUrl": "/public/images/2018/05/slide-0090-white.png",
     "knowledgeLevel": 1,
     "section": "6.3",
     "sectionHeading": "Introducing a Tool into an Organization",

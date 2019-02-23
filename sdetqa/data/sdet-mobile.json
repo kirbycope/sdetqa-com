@@ -1,229 +1,229 @@
 [
   {
     "id": 0,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/08.png",
+    "imgUrl": "/public/images/2018/03/08.png",
     "sectionHeading": "Prerequisite",
     "text": "This guide assumes you have completed the first guide, 'Getting Started with Our Free Framework'. You should also have Android Studio and Appium Desktop installed."
   },
   {
     "id": 1,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/09.png",
+    "imgUrl": "/public/images/2018/03/09.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Append the class declaration with ' : AppBase'"
   },
   {
     "id": 2,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/002-2.png",
+    "imgUrl": "/public/images/2018/03/002-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'Add reference to FrameworkMobile'"
   },
   {
     "id": 3,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/003-2.png",
+    "imgUrl": "/public/images/2018/03/003-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Close the 'App.cs' tab"
   },
   {
     "id": 4,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/004-2.png",
+    "imgUrl": "/public/images/2018/03/004-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Right-click the 'Tests' folder and then select 'Add' ? 'Class...'"
   },
   {
     "id": 5,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/005-1.png",
+    "imgUrl": "/public/images/2018/03/005-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Name the class 'MainActivity' and then select 'Add'"
   },
   {
     "id": 6,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/006-1.png",
+    "imgUrl": "/public/images/2018/03/006-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
   },
   {
     "id": 7,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/007-1.png",
+    "imgUrl": "/public/images/2018/03/007-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Prepend the class declaration with 'public' and append it with ' : TestBase'"
   },
   {
     "id": 8,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/008-1.png",
+    "imgUrl": "/public/images/2018/03/008-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'using FrameworkMobile'"
   },
   {
     "id": 9,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/009-1.png",
+    "imgUrl": "/public/images/2018/03/009-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Create a 'public void MobileExampleTest()' method"
   },
   {
     "id": 10,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/010-1.png",
+    "imgUrl": "/public/images/2018/03/010-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Above the method, insert '[Test]'"
   },
   {
     "id": 11,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/011-1.png",
+    "imgUrl": "/public/images/2018/03/011-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'using NUnit.Framework'"
   },
   {
     "id": 12,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/012-1.png",
+    "imgUrl": "/public/images/2018/03/012-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Expand the 'TestsForMobile' project"
   },
   {
     "id": 13,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/013-1.png",
+    "imgUrl": "/public/images/2018/03/013-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select 'app.config'"
   },
   {
     "id": 14,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/014-1.png",
+    "imgUrl": "/public/images/2018/03/014-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the 'appSettings' text and then copy"
   },
   {
     "id": 15,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/015-1.png",
+    "imgUrl": "/public/images/2018/03/015-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select 'App.config'"
   },
   {
     "id": 16,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/016-1.png",
+    "imgUrl": "/public/images/2018/03/016-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Enter a newline above 'runtime' and then paste"
   },
   {
     "id": 17,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/017-1.png",
+    "imgUrl": "/public/images/2018/03/017-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Type/Copy in the path to the apk file to test"
   },
   {
     "id": 18,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/018-1.png",
+    "imgUrl": "/public/images/2018/03/018-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Save and close the 'App.config' tab"
   },
   {
     "id": 19,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/019-1.png",
+    "imgUrl": "/public/images/2018/03/019-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Define the Element to find"
   },
   {
     "id": 20,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/020-1.png",
+    "imgUrl": "/public/images/2018/03/020-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'using NUnit.Framework'"
   },
   {
     "id": 21,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/021-2.png",
+    "imgUrl": "/public/images/2018/03/021-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Define how to find your element by settting the locator/By."
   },
   {
     "id": 22,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/022-2.png",
+    "imgUrl": "/public/images/2018/03/022-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Define the 'action' of the test"
   },
   {
     "id": 23,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/023-2.png",
+    "imgUrl": "/public/images/2018/03/023-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Add an Assert that the element's text contains the expected content"
   },
   {
     "id": 24,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/024-2.png",
+    "imgUrl": "/public/images/2018/03/024-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Add a using directive to use the FrameworkCommon's Assert class (instead of NUnit)"
   },
   {
     "id": 25,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/025-2.png",
+    "imgUrl": "/public/images/2018/03/025-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "(Optional) Save and close the 'MainActivity.cs' tab"
   },
   {
     "id": 26,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/026-2.png",
+    "imgUrl": "/public/images/2018/03/026-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Right-click the project and then select 'Add' ? 'Class'"
   },
   {
     "id": 27,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/027-2.png",
+    "imgUrl": "/public/images/2018/03/027-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Name the class 'TestInitializer' and then select 'Add'"
   },
   {
     "id": 28,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/028-2.png",
+    "imgUrl": "/public/images/2018/03/028-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
   },
   {
     "id": 29,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/029-2.png",
+    "imgUrl": "/public/images/2018/03/029-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Above the class declaration, add '[SetUpFixture]'"
   },
   {
     "id": 30,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030-2.png",
+    "imgUrl": "/public/images/2018/03/030-2.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'using NUnit.Framework'"
   },
   {
     "id": 31,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/031-1.png",
+    "imgUrl": "/public/images/2018/03/031-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Prepend the class declaration with 'public'"
   },
   {
     "id": 32,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/032-1.png",
+    "imgUrl": "/public/images/2018/03/032-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Add code for the 'OneTimeSetup'"
   },
   {
     "id": 33,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/033-1.png",
+    "imgUrl": "/public/images/2018/03/033-1.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select the Light-Bulb and then select 'using Framework.Common'"
   },
   {
     "id": 34,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/034.png",
+    "imgUrl": "/public/images/2018/03/034.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Save and close the 'TestInitializer.cs' tab"
   },
   {
     "id": 35,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/035.png",
+    "imgUrl": "/public/images/2018/03/035.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "(With an Android Emulator and Appium Desktop already running) Right-click on the test and then select 'Run Selected Tests'"
   },
   {
     "id": 36,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/036.png",
+    "imgUrl": "/public/images/2018/03/036.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Select 'Output' to view the test log"
   },
   {
     "id": 37,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/037.png",
+    "imgUrl": "/public/images/2018/03/037.png",
     "sectionHeading": "Creating Your Mobile Test Suite",
     "text": "Log example"
   }

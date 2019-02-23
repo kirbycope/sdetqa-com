@@ -60,6 +60,14 @@
     <Content Include="public\bootstrap\css\theme\slate\bootstrap.min.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="public\images\2018\02\000.png" />
+    <Content Include="public\images\2018\02\0000.png" />
+    <Content Include="public\images\2018\02\qa.png" />
+    <Content Include="public\images\2018\02\sdet.png" />
+    <Content Include="public\images\2018\03\00-1.png" />
+    <Content Include="public\images\2018\03\00.png" />
+    <Content Include="public\images\2018\03\000-3.png" />
+    <Content Include="public\images\2018\03\08.png" />
     <Content Include="README.md" />
     <Content Include="views\error.ejs">
       <SubType>Code</SubType>
@@ -87,6 +95,10 @@
     <Folder Include="public\bootstrap\css\theme\default\" />
     <Folder Include="public\bootstrap\css\theme\slate\" />
     <Folder Include="public\bootstrap\js\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\images\2018\" />
+    <Folder Include="public\images\2018\02\" />
+    <Folder Include="public\images\2018\03\" />
     <Folder Include="public\scripts\" />
     <Folder Include="routes\" />
     <Folder Include="public\bootstrap\" />

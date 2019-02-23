@@ -1,61 +1,61 @@
 [
   {
     "id": 0,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/00-1.png",
+    "imgUrl": "/public/images/2018/03/00-1.png",
     "sectionHeading": "Mobile Application Testing",
     "text": "Testing your app is done against permutations of devices and operating systems."
   },
   {
     "id": 1,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/01.png",
+    "imgUrl": "/public/images/2018/04/01.png",
     "sectionHeading": "Considerations for Testing Permutations",
     "text": "Do your intial and exploratory testing in the most used os/device. This guide will use an Android Device Emulator."
   },
   {
     "id": 2,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/02.png",
+    "imgUrl": "/public/images/2018/04/02.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Launch your emulator. See https://developer.android.com/studio/run/managing-avds.html for details."
   },
   {
     "id": 3,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/03.png",
+    "imgUrl": "/public/images/2018/04/03.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Launch the Clock app."
   },
   {
     "id": 4,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/04.png",
+    "imgUrl": "/public/images/2018/04/04.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Select the Stop Watch icon."
   },
   {
     "id": 5,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/05.png",
+    "imgUrl": "/public/images/2018/04/05.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Select the Play button, wait 5 seconds, and then press the Stop button."
   },
   {
     "id": 6,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/06.png",
+    "imgUrl": "/public/images/2018/04/06.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Verify: The time is near to 5 seconds."
   },
   {
     "id": 7,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/07.png",
+    "imgUrl": "/public/images/2018/04/07.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Open Android Studio's Android Profiler. See https://developer.android.com/studio/profile/android-profiler.html for details."
   },
   {
     "id": 8,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/08.png",
+    "imgUrl": "/public/images/2018/04/08.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Using an installed app (not the Clock app), run through a test while the Android Profiler is attached to the process."
   },
   {
     "id": 9,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/04/09.png",
+    "imgUrl": "/public/images/2018/04/09.png",
     "sectionHeading": "Testing a Mobile Application",
     "text": "Check for spikes in CPU, Memory, and Network usage as you test and as the app sits unused."
   }

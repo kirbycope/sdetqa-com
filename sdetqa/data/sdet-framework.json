@@ -1,241 +1,241 @@
 ﻿[
   {
     "id": 0,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/000.png",
+    "imgUrl": "/public/images/2018/02/000.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Visual Studio test tools help you deliver high quality software. Use these tools to plan, execute, and monitor your entire testing effort. Stay on top of your test plan with quality metrics, indicators, and comprehensive test status reporting."
   },
   {
     "id": 1,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/001.png",
+    "imgUrl": "/public/images/2018/02/001.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Navigate to https://visualstudio.com/downloads/ and then select 'Free download 📥'"
   },
   {
     "id": 2,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/002.png",
+    "imgUrl": "/public/images/2018/02/002.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Run'"
   },
   {
     "id": 3,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/003.png",
+    "imgUrl": "/public/images/2018/02/003.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "(If Prompted) Select 'Yes'"
   },
   {
     "id": 4,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/004.png",
+    "imgUrl": "/public/images/2018/02/004.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Continue'"
   },
   {
     "id": 5,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/005.png",
+    "imgUrl": "/public/images/2018/02/005.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select '.NET desktop development' and then select 'Install'"
   },
   {
     "id": 6,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/006.png",
+    "imgUrl": "/public/images/2018/02/006.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Launch' (if Visual Studio doesn't launch itself after a few minutes)"
   },
   {
     "id": 7,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/007.png",
+    "imgUrl": "/public/images/2018/02/007.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Not now, maybe later.'"
   },
   {
     "id": 8,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/008.png",
+    "imgUrl": "/public/images/2018/02/008.png",
     "sectionHeading": "Installing Visual Studio 2017 Community",
     "text": "Select 'Dark' and then select 'Start Visual Studio'"
   },
   {
     "id": 9,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/009.png",
+    "imgUrl": "/public/images/2018/02/009.png",
     "sectionHeading": "Getting the Framework",
     "text": "Navigate to 'https://github.com/kirbycope/sdetqa-framework-c-sharp' and then select 'Clone or download ▼'"
   },
   {
     "id": 10,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/010.png",
+    "imgUrl": "/public/images/2018/02/010.png",
     "sectionHeading": "Getting the Framework",
     "text": "Select 'Download ZIP'"
   },
   {
     "id": 11,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/011.png",
+    "imgUrl": "/public/images/2018/02/011.png",
     "sectionHeading": "Getting the Framework",
     "text": "Select 'Save'"
   },
   {
     "id": 12,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/012.png",
+    "imgUrl": "/public/images/2018/02/012.png",
     "sectionHeading": "Getting the Framework",
     "text": "Select 'Open folder'"
   },
   {
     "id": 13,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/013.png",
+    "imgUrl": "/public/images/2018/02/013.png",
     "sectionHeading": "Getting the Framework",
     "text": "Right-click on the .zip file and select 'Extract All...'"
   },
   {
     "id": 14,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/014.png",
+    "imgUrl": "/public/images/2018/02/014.png",
     "sectionHeading": "Getting the Framework",
     "text": "Select 'Extract'"
   },
   {
     "id": 15,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/015.png",
+    "imgUrl": "/public/images/2018/02/015.png",
     "sectionHeading": "Getting the Framework",
     "text": "Double-click the folder"
   },
   {
     "id": 16,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/016.png",
+    "imgUrl": "/public/images/2018/02/016.png",
     "sectionHeading": "Getting the Framework",
     "text": "Double-click the .sln file"
   },
   {
     "id": 17,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/017.png",
+    "imgUrl": "/public/images/2018/02/017.png",
     "sectionHeading": "Getting the Framework",
     "text": "Select 'Visual Studio 2017', check the box to always use this option, and then select 'OK'"
   },
   {
     "id": 18,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/018.png",
+    "imgUrl": "/public/images/2018/02/018.png",
     "sectionHeading": "Getting the Framework",
     "text": "Uncheck the 'Ask me for every project in this solution' box and then select 'OK'"
   },
   {
     "id": 19,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/019.png",
+    "imgUrl": "/public/images/2018/02/019.png",
     "sectionHeading": "Getting the Framework",
     "text": "Select 'Build' → 'Build Solution'"
   },
   {
     "id": 20,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/02/020.png",
+    "imgUrl": "/public/images/2018/02/020.png",
     "sectionHeading": "Getting the Framework",
     "text": "Verify the solution builds successfully"
   },
   {
     "id": 21,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/021.png",
+    "imgUrl": "/public/images/2018/03/021.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click on the solution and then select 'Add' → 'New Project...'"
   },
   {
     "id": 22,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/022.png",
+    "imgUrl": "/public/images/2018/03/022.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Select 'Visual C#' and then 'Class Library(.NET Framework)', name your project and then select 'OK'"
   },
   {
     "id": 23,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/023.png",
+    "imgUrl": "/public/images/2018/03/023.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click the auto-generated class file and then select 'Delete'"
   },
   {
     "id": 24,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/024.png",
+    "imgUrl": "/public/images/2018/03/024.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Select 'OK'"
   },
   {
     "id": 25,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/025.png",
+    "imgUrl": "/public/images/2018/03/025.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click on 'References' and then select 'Add Reference...'"
   },
   {
     "id": 26,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/026.png",
+    "imgUrl": "/public/images/2018/03/026.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Select the check-box next to 'FrameworkCommon' and then select 'OK'"
   },
   {
     "id": 27,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/027.png",
+    "imgUrl": "/public/images/2018/03/027.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click the project and then select 'Add' → 'New Folder'"
   },
   {
     "id": 28,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/028.png",
+    "imgUrl": "/public/images/2018/03/028.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Name the folder 'Tests' and press [Enter]."
   },
   {
     "id": 29,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/029.png",
+    "imgUrl": "/public/images/2018/03/029.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click the project and then select 'Add' → 'New Item...'"
   },
   {
     "id": 30,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/030.png",
+    "imgUrl": "/public/images/2018/03/030.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Search for 'config', select 'Application Configuration File', and then select 'Add'"
   },
   {
     "id": 31,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/001.png",
+    "imgUrl": "/public/images/2018/03/001.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Close the 'App.config' tab"
   },
   {
     "id": 32,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/002.png",
+    "imgUrl": "/public/images/2018/03/002.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click the solution and then select 'Manage NuGet Packages for Solution...'"
   },
   {
     "id": 33,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/003.png",
+    "imgUrl": "/public/images/2018/03/003.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "For each Package, select your new Project, and then select 'Install'"
   },
   {
     "id": 34,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/004.png",
+    "imgUrl": "/public/images/2018/03/004.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Close the 'NuGet - Solution' tab"
   },
   {
     "id": 35,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/05.png",
+    "imgUrl": "/public/images/2018/03/05.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Right-click on your project and then select 'Add' → 'Class...'"
   },
   {
     "id": 36,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/06.png",
+    "imgUrl": "/public/images/2018/03/06.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Name the class 'App' and then select 'Add'"
   },
   {
     "id": 37,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/07.png",
+    "imgUrl": "/public/images/2018/03/07.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Select the Light-Bulb and then select 'Remove Unnecessary Usings'"
   },
   {
     "id": 38,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/08.png",
+    "imgUrl": "/public/images/2018/03/08.png",
     "sectionHeading": "Creating a new Test Project",
     "text": "Type 'public' before the class"
   },
   {
     "id": 39,
-    "imgUrl": "http://timothycope.com/wp-content/uploads/2018/03/decision-chart.png",
+    "imgUrl": "/public/images/2018/03/decision-chart.png",
     "sectionHeading": "What's Next?",
     "text": "What you do next is determined by what you'll be testing. Select a Guide below to continue."
   }
